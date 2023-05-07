@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
-import landingImage from "../../images/me.svg";
+import landingImage from "../../images/me1.svg";
 import Draw from "../../components/Draw";
 import SocialIcons from "../../components/SocialIcons";
 
@@ -51,14 +51,14 @@ const Landing = ({ name }) => {
             className="description"
             onInit={(typewriter) => {
               typewriter
-                .typeString("I'm a Developer")
+                .typeString("Soy desarrollador Full Stack")
                 .pauseFor(1500)
-                .deleteChars(9)
-                .typeString("Designer")
+                .deleteChars(30)
+                .typeString("Diseñador")
                 .pauseFor(1500)
                 .deleteAll()
-                .typeString("Bringing your ideas to life")
-                .start();
+                .typeString("Traigo tus ideas a la vida")
+                .start()
             }}
           />
         </div>

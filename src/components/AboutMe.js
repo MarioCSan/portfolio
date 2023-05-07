@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import SocialIcons from "../components/SocialIcons";
 import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
-import resume from "../pages/about/michael-yeates-resume.pdf";
+import resume from "../pages/about/mario-canales-cv.pdf";
 
 const AboutMe = ({ name, email, location, availability, brand }) => {
   const [ref, inView] = useInView({
@@ -21,7 +21,7 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
     setDownloading(true);
     const link = document.createElement("a");
     link.href = resume;
-    link.download = "Michael-Yeates-Resume.pdf";
+    link.download = "Mario-Canales-cv.pdf";
     link.onload = () => {
       link.remove();
       setDownloading(false);
@@ -50,16 +50,16 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
           transition={{ duration: 0.4, ease: "easeInOut" }}
         >
           <div className="contentContainer">
-            <h4>Nice to meet you</h4>
-            <h5>Frontend Web Developer who creates amazing digital experiences!</h5>
+            <h4>Encantado de conocerte</h4>
+            <h5>Desarrollador fullstack</h5>
             <div className="contentDescription">
               <p>{brand}</p>
             </div>
             <div className="infoContainer">
               <div className="row">
                 <div className="col-12 col-md-6 info">
-                  <span>Name:</span>
-                  <p>Michael Yeates</p>
+                  <span>Nombre:</span>
+                  <p>{name}</p>
                 </div>
                 <div className="col-12 col-md-6 info">
                   <span>Email:</span>
@@ -70,18 +70,18 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
               </div>
               <div className="row">
                 <div className="col-12 col-md-6 info">
-                  <span>Location:</span>
+                  <span>Ubicación:</span>
                   <p>{location}</p>
                 </div>
                 <div className="col-12 col-md-6 info">
-                  <span>Availability:</span>
+                  <span>Disponibilidad:</span>
                   <p>{availability}</p>
                 </div>
               </div>
             </div>
             <div className="buttonContainer">
-              <button className="btn downloadCV" onClick={handleDownload} disabled={downloading}>
-                {downloading ? "Downloading..." : "Download Resume"}
+            <button className="btn downloadCV" onClick={handleDownload} disabled={downloading}>
+                {downloading ? "Descargando..." : "Descargar CV"}
               </button>{" "}
               <SocialIcons />
             </div>

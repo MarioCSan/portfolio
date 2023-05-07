@@ -9,10 +9,10 @@ const Draw = () => {
     const ctx = canvas.getContext("2d");
 
     canvas.addEventListener("mousemove", (e) => {
-      ctx.lineWidth = 0.1;
+      ctx.lineWidth = 1.5;
       ctx.lineCap = "round";
-      ctx.strokeStyle = "#ffffff";
-      ctx.globalAlpha = 0.1;
+      ctx.strokeStyle = "#037A68";
+      ctx.globalAlpha = 1.5;
 
       const { pageX, pageY } = e;
 
