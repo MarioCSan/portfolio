@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 // import landingImage from "../../images/me1.svg";
 import Draw from "../../components/Draw";
