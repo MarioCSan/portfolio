@@ -8,7 +8,7 @@ function App() {
     email: "canalessanchezmario@gmail.com",
     availability: "Abierto a escuchar ofertas",
     brand:
-      "Programador, creador de soluciones, en busqueda de la excelencia.",
+      "Creo soluciones y aplicaciones con las últimas tecnologías en el desarrollo web.\n \nMe gusta desarrollar en la plataforma .NET para aprovechar su capacidad multiplataforma. \nReact o Angular son buenas opciones para la parte del Front.",
   };
 
   return (
