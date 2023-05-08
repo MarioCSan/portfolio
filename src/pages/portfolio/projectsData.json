@@ -10,10 +10,10 @@
     "id": "1"
   },  
   {
-    "title": "Aviatore",
-    "image": "./projectImages/aviatore.png",
-    "description": "Esta maqueta la deiseñe para el módulo de Diseño en DAW. Esta maqueta esta pensada para una empresa dedicada a los vuelos charter. ",
-    "technologies": "Javascript | Bootstrap",
+    "title": "MoneyGo",
+    "image": "./projectImages/moneyGo.png",
+    "description": "Esta aplicación fue el proyecto del Máster que realizé. Esta aplicación hace uso de .Net Core para la parte del backend, Sql Server para BBDD y javascript y bootstrap para el frontal. Se fue escalando para añadir seguridad, llevando el servidor a una API y desplegando en Azure y AWS. Esta aplicación web permite a los usuarios llevar un control sobre sus finanzas haciendo uso de gráficos. Además, en caso de perder la contraseña, se podía cambiar mediante un email de recuperación.",
+    "technologies": ".NET CORE | Javascript | Bootstrap",
     "github": "https://github.com/DrunkPsyduck/AviatoreHtml",
     "deployed": "https://drunkpsyduck.github.io/AviatoreHtml/",
     "bgcolor": "#037A68",
