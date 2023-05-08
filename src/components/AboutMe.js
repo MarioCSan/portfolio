@@ -74,6 +74,17 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
                   <p>{location}</p>
                 </div>
                 <div className="col-12 col-md-6 info">
+                  <span>Lenguajes de programación</span>
+                  <img height="20" alt=" html"src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
+                  <img height="20" alt="css" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
+                  <img height="20" alt="javascript"src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
+                  <img height="20" alt="javascript" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png" />
+                  <img height="20" alt="javascript"src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/dotnet/dotnet.png" />
+                  <img height="20" alt="javascript"src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />
+                  <img height="20" alt="javascript"src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png" />
+                  <img height="20" alt="git "src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" />
+                </div>
+                <div className="col-12 col-md-6 info">
                   <span>Disponibilidad:</span>
                   <p>{availability}</p>
                 </div>
@@ -84,6 +95,8 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
                 {downloading ? "Descargando..." : "Descargar CV"}
               </button>{" "}
               <SocialIcons />
+
+
             </div>
           </div>
         </motion.div>
