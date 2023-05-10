@@ -7,6 +7,7 @@
     "github": "https://github.com/DrunkPsyduck/AviatoreHtml",
     "deployed": "https://drunkpsyduck.github.io/AviatoreHtml/",
     "bgcolor": "#f37737",
+    "disabled": "false",
     "id": "1"
   },  
   {
@@ -17,6 +18,7 @@
     "github": "https://github.com/DrunkPsyduck/MoneyGo",
     "deployed": "https://github.com/DrunkPsyduck/MoneyGo",
     "bgcolor": "#037A68",
+    "disabled": "true",
     "id": "1"
   }
 ]

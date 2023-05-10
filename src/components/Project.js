@@ -4,7 +4,7 @@ import Modal from "react-modal";
 import { useState } from "react";
 import closeModal from "../images/close.svg";
 
-const Project = ({ technologies, title, image, color, id, github, deployed, description }) => {
+const Project = ({ technologies, title, image, color, id, github, deployed, disabled, description }) => {
   const [ref, inView] = useInView({
     threshold: 0.5,
     triggerOnce: true,
@@ -20,6 +20,8 @@ const Project = ({ technologies, title, image, color, id, github, deployed, desc
   const [showModal, setShowModal] = useState(false);
   const handleOpenModal = () => setShowModal(true);
   const handleCloseModal = () => setShowModal(false);
+
+  
 
   return (
     <motion.div
@@ -73,9 +75,13 @@ const Project = ({ technologies, title, image, color, id, github, deployed, desc
         <button className="btn" onClick={() => (window.open(github, '_blank'))}>
           GitHub 
         </button>
-        <button className="btn" onClick={() => (window.open(deployed, '_blank'))}>
-          Live Link
-        </button>
+        { title !== "MoneyGo"?        
+          <button className="btn" onClick={() => (window.open(deployed, '_blank'))} disabled="false">
+            Live link 
+          </button>:null
+          
+        }
+        
       </Modal>
     </motion.div>
   );
