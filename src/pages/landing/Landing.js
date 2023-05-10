@@ -1,6 +1,6 @@
-// import { motion } from "framer-motion";
+import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
-// import landingImage from "../../images/me1.svg";
+import landingImage from "../../images/me2.webp";
 import Draw from "../../components/Draw";
 import SocialIcons from "../../components/SocialIcons";
 
@@ -18,7 +18,7 @@ const Landing = ({ name }) => {
       bottom: "0",
       opacity: "0.3",
       mixBlendMode: "lighten",
-      height: "80%",
+      height: "90%",
     },
 
     textContainer: {
@@ -66,7 +66,7 @@ const Landing = ({ name }) => {
           />
         </div>
       </div>
-      {/* <div className="image-container">
+      <div className="image-container">
         <motion.img
           className="landingImage"
           initial={{ opacity: 0 }}
@@ -74,9 +74,9 @@ const Landing = ({ name }) => {
           transition={{ duration: 1, ease: "easeInOut" }}
           style={styles.landingImage}
           src={landingImage}
-          alt="Michael Yeates"
+          alt="Mario "
         />
-      </div> */}
+      </div>
       <SocialIcons />
     </section>
   );
