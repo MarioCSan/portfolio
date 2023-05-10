@@ -76,7 +76,7 @@ const Project = ({ technologies, title, image, color, id, github, deployed, disa
           GitHub 
         </button>
         { title !== "MoneyGo"?        
-          <button className="btn" onClick={() => (window.open(deployed, '_blank'))} disabled="false">
+          <button className="btn" onClick={() => (window.open(deployed, '_blank'))}>
             Live link 
           </button>:null
           
