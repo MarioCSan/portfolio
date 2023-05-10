@@ -51,9 +51,12 @@ const Landing = ({ name }) => {
             className="description"
             onInit={(typewriter) => {
               typewriter
-                .typeString("Soy desarrollador Full Stack")
+                .typeString("Desarrollador Full Stack")
                 .pauseFor(1500)
                 .deleteChars(30)
+                .typeString("Multiplataforma")
+                .pauseFor(1500)
+                .deleteAll()
                 .typeString("Diseñador")
                 .pauseFor(1500)
                 .deleteAll()

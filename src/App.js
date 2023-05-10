@@ -8,7 +8,7 @@ function App() {
     email: "canalessanchezmario@gmail.com",
     availability: "Abierto a escuchar ofertas",
     brand:
-      "Creo soluciones y aplicaciones con las últimas tecnologías en el desarrollo web.\n \nMe gusta desarrollar en la plataforma .NET para aprovechar su capacidad multiplataforma. \nReact o Angular son buenas opciones para la parte del Front.",
+      "Creo soluciones y aplicaciones con las últimas tecnologías en el desarrollo web.\n \nMe gusta desarrollar en la plataforma .NET para aprovechar su capacidad multiplataforma con Xamarin/MAUI. \nReact o Angular son mis opciones favoritas para el desarrollo del FrontEnd.\n Además, he creado aplicaciones, que hacen usos de recursos en Azure o AWS.",
   };
 
   return (
