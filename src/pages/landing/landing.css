@@ -11,9 +11,9 @@
   right: 0px;
 }
 
-/* .landing .socialIcons {
+.landing .socialIcons {
   display: none;
-} */
+}
 
 .landing .socialIcons {
   display: flex;
