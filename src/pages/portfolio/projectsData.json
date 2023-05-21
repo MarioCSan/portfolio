@@ -2,7 +2,7 @@
   {
     "title": "Aviatore",
     "image": "./projectImages/aviatore.png",
-    "description": "Esta maqueta la deiseñe para el módulo de Diseño en DAW. Esta maqueta esta pensada para una empresa dedicada a los vuelos charter. ",
+    "description": "Esta maqueta la deiseñe para el módulo de Diseño en DAW. Se pidio que se usasen animaciones CSS como algo obligatorio. ",
     "technologies": "Javascript | Bootstrap",
     "github": "https://github.com/DrunkPsyduck/Aviatore",
     "deployed": "https://drunkpsyduck.github.io/Aviatore/",
