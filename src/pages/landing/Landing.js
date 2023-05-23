@@ -38,7 +38,7 @@ const Landing = ({ name }) => {
       paddingBottom: "28px",
     },
   };
-
+  
   return (
     <section className="landing" style={styles.landing}>
       <Draw />

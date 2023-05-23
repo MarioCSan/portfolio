@@ -5,7 +5,7 @@ import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
 import resume from "../pages/about/mario-canales-cv.pdf";
 
-const AboutMe = ({ name, email, location, availability, brand }) => {
+const AboutMe = ({ name, email, location, availability, brand, presentar }) => {
   const [ref, inView] = useInView({
     threshold: 0.2,
     triggerOnce: true,
@@ -29,7 +29,6 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
     document.body.appendChild(link);
     link.click();
   };
-
   return (
     <div className="aboutContainer container">
       <div className="row">
@@ -50,28 +49,28 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
           transition={{ duration: 0.4, ease: "easeInOut" }}
         >
           <div className="contentContainer">
-            <h4>Encantado de conocerte</h4>
-            <h5>Soy desarrollador fullstack.</h5>
+            <h4>{presentar} </h4>
+            <h5> {presentar} </h5>
             <div className="contentDescription">
               <p>{brand}</p>
             </div>
             <div className="infoContainer">
               <div className="row">
                 <div className="col-12 col-md-6 info">
-                  <span>Nombre:</span>
-                  <p>{name}</p>
-                </div>
-                <div className="col-12 col-md-6 info">
                   <span>Email:</span>
-                  <p>
-                    <a href={`mailto:${email}`}>{email}</a>
-                  </p>
+                    <p>
+                      <a href={`mailto:${email}`}>{email}</a>
+                    </p>
+                  </div>
+                <div className="col-12 col-md-6 info">
+                  <span>Ubicación:</span>
+                  <p>{location}</p>
                 </div>
               </div>
               <div className="row">
                 <div className="col-12 col-md-6 info">
-                  <span>Ubicación:</span>
-                  <p>{location}</p>
+                <span>Disponibilidad:</span>
+                  <p>{availability}</p>
                 </div>
                 <div className="col-12 col-md-6 info">
                   <span>Conocimientos en:</span>
@@ -88,10 +87,9 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
                   <img height="20" alt="SQL Server "src="https://raw.githubusercontent.com/github/explore/96943574ba0c0340ba6ea1e6f768e9abe43e34e1/topics/sql-server/sql-server.png" />
 
                 </div>
-                <div className="col-12 col-md-6 info">
-                  <span>Disponibilidad:</span>
-                  <p>{availability}</p>
-                </div>
+                {/* <div className="col-12 col-md-6 info">
+                 
+                </div> */}
               </div>
             </div>
             <div className="buttonContainer">
