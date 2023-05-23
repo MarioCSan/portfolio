@@ -7,7 +7,7 @@ import Contact from "../pages/contact/Contact";
 
 const AnimatedRoutes = ({ personalDetails }) => {
   const location = useLocation();
-
+  console.log(personalDetails)
   return (
     <Routes location={location} key={location.pathname}>
       <Route path="/" element={<Landing name={personalDetails.name} tagline={personalDetails.tagline} />} />
@@ -22,6 +22,8 @@ const AnimatedRoutes = ({ personalDetails }) => {
             brand={personalDetails.brand}
             yoSoy={personalDetails.yoSoy}
             presentar={personalDetails.presentar}
+            pos={personalDetails.pos}
+            saludo={personalDetails.saludo}
           />
         }
       />

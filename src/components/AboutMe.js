@@ -5,7 +5,7 @@ import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
 import resume from "../pages/about/mario-canales-cv.pdf";
 
-const AboutMe = ({ name, email, location, availability, brand, presentar }) => {
+const AboutMe = ({ name, email, location, availability, brand, pos, saludo }) => {
   const [ref, inView] = useInView({
     threshold: 0.2,
     triggerOnce: true,
@@ -49,8 +49,8 @@ const AboutMe = ({ name, email, location, availability, brand, presentar }) => {
           transition={{ duration: 0.4, ease: "easeInOut" }}
         >
           <div className="contentContainer">
-            <h4>{presentar} </h4>
-            <h5> {presentar} </h5>
+            <h4> {saludo} </h4>
+            <h5> {pos} </h5>
             <div className="contentDescription">
               <p>{brand}</p>
             </div>
