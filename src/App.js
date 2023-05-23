@@ -23,7 +23,7 @@ function App() {
   return (
     <>
       <Header />
-      <AnimatedRoutes personalDetails={personalDetails } />
+      <AnimatedRoutes personalDetails={personalDetails} />
     </>
   );
 }

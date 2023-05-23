@@ -1,10 +1,11 @@
 import AboutMe from "../../components/AboutMe";
 import PageHeader from "../../components/PageHeader";
 
-const About = ({ name, location, brand, email, availability }) => {
+const About = ({ name, location, brand, email, availability, presentar, yoSoy,  saludo, soydesarrollador,  }) => {
+  console.log(yoSoy)
   return (
     <section className="about">
-      <PageHeader title="Yo soy Mario" description="Dejame presentarme" />
+      <PageHeader title={yoSoy} description={presentar} />
       <AboutMe name={name} location={location} brand={brand} email={email} availability={availability} />
     </section>
   );
