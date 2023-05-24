@@ -1,6 +1,4 @@
-import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
-import landingImage from "../../images/me2.webp";
 import Draw from "../../components/Draw";
 import SocialIcons from "../../components/SocialIcons";
 
@@ -66,7 +64,7 @@ const Landing = ({ name }) => {
           />
         </div>
       </div>
-      <div className="image-container">
+      {/* <div className="image-container">
         <motion.img
           className="landingImage"
           initial={{ opacity: 0 }}
@@ -76,7 +74,7 @@ const Landing = ({ name }) => {
           src={landingImage}
           alt="Mario "
         />
-      </div>
+      </div> */}
       <SocialIcons />
     </section>
   );
