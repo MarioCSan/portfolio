@@ -1,6 +1,8 @@
 import Typewriter from "typewriter-effect";
 import Draw from "../../components/Draw";
 import SocialIcons from "../../components/SocialIcons";
+import landingImage from "../../images/me2.png"
+import { motion } from "framer-motion";
 
 const Landing = ({ name }) => {
   const styles = {
@@ -64,7 +66,7 @@ const Landing = ({ name }) => {
           />
         </div>
       </div>
-      {/* <div className="image-container">
+      <div className="image-container">
         <motion.img
           className="landingImage"
           initial={{ opacity: 0 }}
@@ -72,9 +74,9 @@ const Landing = ({ name }) => {
           transition={{ duration: 1, ease: "easeInOut" }}
           style={styles.landingImage}
           src={landingImage}
-          alt="Mario "
+          alt="Soy yo"
         />
-      </div> */}
+      </div>
       <SocialIcons />
     </section>
   );
