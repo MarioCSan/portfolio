@@ -20,5 +20,16 @@
     "bgcolor": "#037A68",
     "disabled": "true",
     "id": "1"
+  },
+  {
+    "title": "El tiempo",
+    "image": "./projectImages/weatherM.png",
+    "description": "Bajo desaarrollo. Pequeña aplicación en React para consultar el tiempo mediante una API. Según la hora en la ciudad introducida cambiará el color de fondo.", 
+    "technologies": "React | TailwindCSS",
+    "github": "https://github.com/DrunkPsyduck/weather",
+    "deployed": "https://Tiempo.mariocanales.es",
+    "bgcolor": "#8b00b5",
+    "disabled": "true",
+    "id": "1"
   }
 ]

@@ -78,7 +78,9 @@ const Landing = ({ name }) => {
         />
       </div>
       <SocialIcons />
+
     </section>
+    
   );
 };
 
