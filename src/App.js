@@ -1,5 +1,9 @@
 import Header from "./components/Header";
-import AnimatedRoutes from "./components/AnimatedRoutes";
+// import AnimatedRoutes from "./components/AnimatedRoutes";
+import Landing from "./pages/landing/Landing";
+import AboutMe from "./components/AboutMe";
+import Portfolio from "./pages/portfolio/Portfolio";
+import SocialIcons from "./components/SocialIcons";
 
 function App() {
   const personalDetails  = {
@@ -21,7 +25,24 @@ function App() {
   return (
     <>
       <Header />
-      <AnimatedRoutes personalDetails={personalDetails} />
+      {/* <AnimatedRoutes personalDetails={personalDetails} /> */}
+
+      <Landing />
+      <div className="container" id='about'>
+        <AboutMe
+          name={personalDetails.name}
+          location={personalDetails.location}
+          email={personalDetails.email}
+          availability={personalDetails.availability}
+          brand={personalDetails.brand}
+          yoSoy={personalDetails.yoSoy}
+          presentar={personalDetails.presentar}
+          pos={personalDetails.pos}
+          saludo={personalDetails.saludo}
+        />
+        <Portfolio />
+        <SocialIcons />
+      </div>
     </>
   );
 }
