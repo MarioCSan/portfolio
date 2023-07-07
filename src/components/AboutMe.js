@@ -4,7 +4,6 @@ import SocialIcons from "../components/SocialIcons";
 import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
 import resume from "../pages/about/mario-canales-cv.pdf";
-import { hover } from "@testing-library/user-event/dist/hover";
 
 const AboutMe = ({ name, email, location, availability, brand, pos, saludo }) => {
   const [ref, inView] = useInView({
