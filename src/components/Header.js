@@ -1,5 +1,6 @@
 // import NavLinks from "./NavLinks";
 import logo from "../images/logoN.webp";
+import NavLinks from "./NavLinks";
 
 const Header = () => {
   return (
@@ -7,7 +8,7 @@ const Header = () => {
       <a href="/" rel="noreferrer">
         <img className="logo" src={logo} alt="Logo" width='' height=''  />
       </a>
-      {/* <NavLinks /> */}
+      <NavLinks />
     </header>
   
   );

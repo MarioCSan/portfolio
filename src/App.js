@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Landing from "./pages/landing/Landing";
 import AboutMe from "./components/AboutMe";
 import Portfolio from "./pages/portfolio/Portfolio";
+import ContactInfo from "./components/ContactInfo"
 import SocialIcons from "./components/SocialIcons";
 
 function App() {
@@ -28,7 +29,7 @@ function App() {
       {/* <AnimatedRoutes personalDetails={personalDetails} /> */}
 
       <Landing />
-      <div className="container" id='about'>
+      <div className="container" id="about">
         <AboutMe
           name={personalDetails.name}
           location={personalDetails.location}
@@ -41,6 +42,7 @@ function App() {
           saludo={personalDetails.saludo}
         />
         <Portfolio />
+        
         <SocialIcons />
       </div>
     </>
