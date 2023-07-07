@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Landing from "./pages/landing/Landing";
 import AboutMe from "./components/AboutMe";
 import Portfolio from "./pages/portfolio/Portfolio";
-import ContactInfo from "./components/ContactInfo"
+
 import SocialIcons from "./components/SocialIcons";
 
 function App() {
