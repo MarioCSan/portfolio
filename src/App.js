@@ -1,10 +1,10 @@
 import Header from "./components/Header";
-// import AnimatedRoutes from "./components/AnimatedRoutes";
-import Landing from "./pages/landing/Landing";
-import AboutMe from "./components/AboutMe";
-import Portfolio from "./pages/portfolio/Portfolio";
+import AnimatedRoutes from "./components/AnimatedRoutes";
+// import Landing from "./pages/landing/Landing";
+// import AboutMe from "./components/AboutMe";
+// import Portfolio from "./pages/portfolio/Portfolio";
 
-import SocialIcons from "./components/SocialIcons";
+// import SocialIcons from "./components/SocialIcons";
 
 function App() {
   const personalDetails  = {
@@ -26,9 +26,9 @@ function App() {
   return (
     <>
       <Header />
-      {/* <AnimatedRoutes personalDetails={personalDetails} /> */}
+      <AnimatedRoutes personalDetails={personalDetails} />
 
-      <Landing />
+      {/* <Landing />
       <div className="container" id="about">
         <AboutMe
           name={personalDetails.name}
@@ -44,7 +44,7 @@ function App() {
         <Portfolio />
         
         <SocialIcons />
-      </div>
+      </div> */}
     </>
   );
 }
