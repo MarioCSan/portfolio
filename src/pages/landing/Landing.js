@@ -2,7 +2,7 @@ import Typewriter from "typewriter-effect";
 // import Draw from "../../components/Draw";
 import SocialIcons from "../../components/SocialIcons";
 // import landingImage from "../../images/me2.png"
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 const Landing = ({ name }) => {
   const styles = {
