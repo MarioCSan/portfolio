@@ -53,7 +53,8 @@ const Landing = ({ name }) => {
               typewriter
                 .typeString("Desarrollador Full Stack")
                 .pauseFor(1500)
-                .deleteChars(30)
+                .deleteChars(10)
+                .pauseFor(500)
                 .typeString("Multiplataforma")
                 .pauseFor(1500)
                 .deleteAll()
