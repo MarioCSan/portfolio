@@ -1,7 +1,7 @@
 import Typewriter from "typewriter-effect";
 // import Draw from "../../components/Draw";
 import SocialIcons from "../../components/SocialIcons";
-import landingImage from "../../images/me2.png"
+// import landingImage from "../../images/me2.png"
 import { motion } from "framer-motion";
 
 const Landing = ({ name }) => {
@@ -57,9 +57,6 @@ const Landing = ({ name }) => {
                 .typeString("Multiplataforma")
                 .pauseFor(1500)
                 .deleteAll()
-                .typeString("Diseñador")
-                .pauseFor(1500)
-                .deleteAll()
                 .typeString("Traigo tus ideas a la vida")
                 .start()
             }}
@@ -67,7 +64,7 @@ const Landing = ({ name }) => {
         </div>
       </div>
       <div className="image-container">
-        <motion.img
+        {/* <motion.img
           className="landingImage"
           initial={{ opacity: 0 }}
           animate={{ opacity: 0.4 }}
@@ -75,7 +72,7 @@ const Landing = ({ name }) => {
           style={styles.landingImage}
           src={landingImage}
           alt="Soy yo"
-        />
+        /> */}
       </div>
       
       <SocialIcons />
