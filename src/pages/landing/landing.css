@@ -28,7 +28,7 @@
 }
 
 .button {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 /* --- MEDIA QUERIES --- */
@@ -49,5 +49,9 @@
 
   .landing .socialIcons {
     flex-direction: column;
+  }
+
+  .button{
+    font-size: 24px;
   }
 }
