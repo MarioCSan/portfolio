@@ -2,16 +2,21 @@ import Typewriter from "typewriter-effect";
 // import Draw from "../../components/Draw";
 import SocialIcons from "../../components/SocialIcons";
 import { Link } from "react-router-dom";
+import { motion, useMotionValue } from "framer-motion";
 // import landingImage from "../../images/me2.png"
 // import { motion } from "framer-motion";
 
 const Landing = ({ name }) => {
+  let mouseX = useMotionValue(0);
+  let mouseY = useMotionValue(0);
+
   const styles = {
     landing: {
       height: "calc(95% - 93px)",
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
+      backgroundColor: '#101010'
     },
 
     landingImage: {
@@ -38,10 +43,28 @@ const Landing = ({ name }) => {
       marginTop: "-100px",
       paddingBottom: "28px",
     },
+    
   };
+
+  const mouseOver = ({clientX, clientY, currentTarget}) =>{
+    let {left, top} = currentTarget.getBoundingClientRect()
+
+    mouseX.set(clientX - left);
+    mouseY.set(clientY - top);
+  } 
   
   return (
-    <section className="landing" style={styles.landing}>
+    <section className="landing" style={styles.landing} onMouseMove={mouseOver}>
+      <motion.div
+        style={{
+          background: useMotionValue`
+            radial-gradient(
+              100px circle at ${mouseX}px ${mouseY}px,
+              rgba(14, 165, 233, 0.50),
+              transparent 10%
+            )
+          `,
+        }}/>
       <div className="textContainer" style={styles.textContainer}>
         <h1 className="name" style={styles.name}>
           {name}
@@ -67,9 +90,8 @@ const Landing = ({ name }) => {
           <Link to="/about">
             <button className="btn m-4 downloadCV button">Conóceme</button>
           </Link>
-          <Link to="/portfolio"
-          >
-           <button className="btn m-4 downloadCV button">Portfolio</button>
+          <Link to="/portfolio">
+            <button className="btn m-4 downloadCV button">Portfolio</button>
           </Link>
         </div>
       </div>
