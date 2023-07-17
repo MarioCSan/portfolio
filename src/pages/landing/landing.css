@@ -28,7 +28,7 @@
 }
 
 .button {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 /* --- MEDIA QUERIES --- */
@@ -52,6 +52,6 @@
   }
 
   .button{
-    font-size: 24px;
+    font-size: 22px;
   }
 }
