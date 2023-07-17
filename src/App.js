@@ -1,5 +1,7 @@
 import Header from "./components/Header";
 import AnimatedRoutes from "./components/AnimatedRoutes";
+import Footer from './components/Footer'
+import { useState } from "react";
 // import Landing from "./pages/landing/Landing";
 // import AboutMe from "./components/AboutMe";
 // import Portfolio from "./pages/portfolio/Portfolio";
@@ -7,6 +9,7 @@ import AnimatedRoutes from "./components/AnimatedRoutes";
 // import SocialIcons from "./components/SocialIcons";
 
 function App() {
+  
   const personalDetails  = {
     name: "Mario Canales",
     location: "Madrid, ES",
@@ -28,6 +31,7 @@ function App() {
       <Header />
       <AnimatedRoutes personalDetails={personalDetails} />
 
+      <Footer />
       {/* <Landing />
       <div className="container" id="about">
         <AboutMe
@@ -45,6 +49,7 @@ function App() {
         
         <SocialIcons />
       </div> */}
+
     </>
   );
 }

@@ -80,7 +80,7 @@ const AboutMe = ({ name, email, location, availability, brand, pos, saludo }) =>
               <div className="row">
                 <div className="col-12 col-md-6 info">
                   <span>Email:</span>
-                  <p>
+                  <p className='pt-2'>
                     <a href={`mailto:${email}`}>{email}</a>
                   </p>
                 </div>
@@ -90,13 +90,13 @@ const AboutMe = ({ name, email, location, availability, brand, pos, saludo }) =>
                 </div> */}
                 <div className="col-12 col-md-6 info">
                   <span>Disponibilidad:</span>
-                  <p>{availability}</p>
+                  <p className="pt-2">{availability}</p>
                 </div>
               </div>
               <div className="row">
-                <div className="col-12 col-md-12 info">
+                <div className="col-12 col-md-12 info pt-2">
                   <span className="mb-4">Conocimientos en:</span>
-                  <div className="pt-2 col-12 col-md-12 info">
+                  <div className="pt-3 col-12 col-md-12 info">
                     <img
                       src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"
                       alt="Javascript"
@@ -189,7 +189,7 @@ const AboutMe = ({ name, email, location, availability, brand, pos, saludo }) =>
                 </div> */}
               </div>
             </div>
-            <div className="buttonContainer">
+            <div className="buttonContainer mt-4">
               <button
                 className="btn downloadCV"
                 onClick={handleDownload}

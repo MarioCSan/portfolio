@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const Landing = ({ name }) => {
   const styles = {
     landing: {
-      height: "calc(100% - 93px)",
+      height: "calc(95% - 93px)",
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
