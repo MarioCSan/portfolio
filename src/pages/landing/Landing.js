@@ -1,6 +1,7 @@
 import Typewriter from "typewriter-effect";
 // import Draw from "../../components/Draw";
 import SocialIcons from "../../components/SocialIcons";
+import { Link } from "react-router-dom";
 // import landingImage from "../../images/me2.png"
 // import { motion } from "framer-motion";
 
@@ -37,16 +38,20 @@ const Landing = ({ name }) => {
       marginTop: "-100px",
       paddingBottom: "28px",
     },
+
+    link:{
+      TextDecoration: 'none',
+      paddingTop: '10px'
+    }
   };
   
   return (
     <section className="landing" style={styles.landing}>
-    
       <div className="textContainer" style={styles.textContainer}>
         <h1 className="name" style={styles.name}>
           {name}
         </h1>
-        <div className="description">
+        <div className="description  mb-4">
           <Typewriter
             className="description"
             onInit={(typewriter) => {
@@ -59,9 +64,21 @@ const Landing = ({ name }) => {
                 .pauseFor(1500)
                 .deleteAll()
                 .typeString("Traigo tus ideas a la vida")
-                .start()
+                .start();
             }}
           />
+        </div>
+        <div className="m-4 m p-6 btncontainer">
+          <Link className="btn m-4 downloadCV" to="/about">
+            Conoceme
+          </Link>
+          <Link
+            className="btn m-4 downloadCV"
+            style={styles.link}
+            to="/portfolio"
+          >
+            Portfolio
+          </Link>
         </div>
       </div>
       <div className="image-container">
@@ -74,12 +91,10 @@ const Landing = ({ name }) => {
           src={landingImage}
           alt="Soy yo"
         /> */}
-      </div>
-      
-      <SocialIcons />
 
+        <SocialIcons />
+      </div>
     </section>
-    
   );
 };
 

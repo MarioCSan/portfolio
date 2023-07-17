@@ -7,7 +7,6 @@ import Contact from "../pages/contact/Contact";
 
 const AnimatedRoutes = ({ personalDetails }) => {
   const location = useLocation();
-  console.log(personalDetails)
   return (
     <Routes location={location} key={location.pathname}>
       <Route
