@@ -38,11 +38,6 @@ const Landing = ({ name }) => {
       marginTop: "-100px",
       paddingBottom: "28px",
     },
-
-    link:{
-      TextDecoration: 'none',
-      paddingTop: '10px'
-    }
   };
   
   return (
@@ -69,15 +64,12 @@ const Landing = ({ name }) => {
           />
         </div>
         <div className="m-4 m p-6 btncontainer">
-          <Link className="btn m-4 downloadCV" to="/about">
-            Conoceme
+          <Link to="/about">
+            <button className="btn m-4 downloadCV button">Conóceme</button>
           </Link>
-          <Link
-            className="btn m-4 downloadCV"
-            style={styles.link}
-            to="/portfolio"
+          <Link to="/portfolio"
           >
-            Portfolio
+           <button className="btn m-4 downloadCV button">Portfolio</button>
           </Link>
         </div>
       </div>
