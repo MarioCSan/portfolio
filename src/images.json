@@ -1,0 +1,83 @@
+[
+    {
+      "title": "Javascript",
+      "imagen": "./projectImages/javascript.svg"
+    },
+    {
+      "title": "React",
+      "imagen": "./projectImages/React.svg"
+    },
+    {
+      "title": "TypeScript",
+      "imagen": "./projectImages/typescript.svg"
+    },
+    {
+      "title": "Angular",
+      "imagen": "./projectImages/angular.svg"
+    },
+    {
+      "title": "C#",
+      "imagen": "./projectImages/csharp.svg"
+    },
+    {
+      "title": ".NET",
+      "imagen": "./projectImages/net.svg"
+    },
+    {
+      "title": "Next",
+      "imagen": "./projectImages/Next-black.svg"
+    },
+    {
+      "title": "Xamarin",
+      "imagen": "./projectImages/Xamarin.svg"
+    },
+    {
+      "title": "HTML5",
+      "imagen": "./projectImages/html5.svg"
+    },
+    {
+      "title": "CSS3",
+      "imagen": "./projectImages/css3.svg"
+    },
+    {
+      "title": "Bootstrap",
+      "imagen": "./projectImages/bootstrap.svg"
+    },
+    {
+      "title": "Azure",
+      "imagen": "./projectImages/azure.svg"
+    },
+    {
+      "title": "AWS",
+      "imagen": "./projectImages/AWS.svg"
+    },
+    {
+      "title": "NPM",
+      "imagen": "./projectImages/npm.svg"
+    },
+    {
+      "title": "Sql Server",
+      "imagen": "./projectImages/Microsoft SQL Sever.svg"
+    },
+    {
+      "title": "MySQL",
+      "imagen": "./projectImages/mysql.svg"
+    },
+    {
+      "title": "Postgres",
+      "imagen": "./projectImages/postgres.svg"
+    },
+    {
+      "title": "MongoDB",
+      "imagen": "./projectImages/MongoDB.svg"
+    },
+    {
+      "title": "Docker",
+      "imagen": "./projectImages/docker.svg"
+    },
+    {
+      "title": "Swagger",
+      "imagen": "./projectImages/swagger.svg"
+    }
+  ]
+  
