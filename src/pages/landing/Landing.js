@@ -2,13 +2,11 @@ import Typewriter from "typewriter-effect";
 // import Draw from "../../components/Draw";
 import SocialIcons from "../../components/SocialIcons";
 import { Link } from "react-router-dom";
-import { motion, useMotionValue } from "framer-motion";
 // import landingImage from "../../images/me2.png"
 // import { motion } from "framer-motion";
 
 const Landing = ({ name }) => {
-  let mouseX = useMotionValue(0);
-  let mouseY = useMotionValue(0);
+
 
   const styles = {
     landing: {
@@ -45,26 +43,9 @@ const Landing = ({ name }) => {
     },
     
   };
-
-  const mouseOver = ({clientX, clientY, currentTarget}) =>{
-    let {left, top} = currentTarget.getBoundingClientRect()
-
-    mouseX.set(clientX - left);
-    mouseY.set(clientY - top);
-  } 
   
   return (
-    <section className="landing" style={styles.landing} onMouseMove={mouseOver}>
-      <motion.div
-        style={{
-          background: useMotionValue`
-            radial-gradient(
-              100px circle at ${mouseX}px ${mouseY}px,
-              rgba(14, 165, 233, 0.50),
-              transparent 10%
-            )
-          `,
-        }}/>
+    <section className="landing" style={styles.landing}>
       <div className="textContainer" style={styles.textContainer}>
         <h1 className="name" style={styles.name}>
           {name}
