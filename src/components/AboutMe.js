@@ -13,6 +13,15 @@ const AboutMe = ({ name, email, location, availability, brand, pos, saludo }) =>
     triggerOnce: true,
   });
 
+  // const styles = {
+  //   landing: {
+  //     height: "calc(95% - 93px)",
+  //     display: "flex",
+  //     justifyContent: "center",
+  //     alignItems: "center",
+  //     backgroundColor: '#101010'
+  //   }
+  // } 
   const [downloading, setDownloading] = useState(false);
 
   useEffect(() => {
@@ -33,8 +42,8 @@ const AboutMe = ({ name, email, location, availability, brand, pos, saludo }) =>
     link.click();
   };
   return (
-    <div className="aboutContainer container">
-      <div className="row">
+    <div className="aboutContainer">
+      <div className="row container">
         <motion.div
           className="personalImage col-12 col-lg-4"
           ref={ref}
