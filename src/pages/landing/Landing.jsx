@@ -3,6 +3,7 @@ import Typewriter from "typewriter-effect";
 import SocialIcons from "../../components/SocialIcons";
 import { Link } from "react-router-dom";
 import { motion, useMotionValue } from "framer-motion";
+import Footer from "../../components/Footer";
 // import landingImage from "../../images/me2.png"
 // import { motion } from "framer-motion";
 
@@ -12,7 +13,7 @@ const Landing = ({ name }) => {
 
   const styles = {
     landing: {
-      height: "calc(95% - 93px)",
+      height: "calc(90%)",
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
@@ -107,7 +108,9 @@ const Landing = ({ name }) => {
         /> */}
 
         <SocialIcons />
+       
       </div>
+      
     </section>
   );
 };
