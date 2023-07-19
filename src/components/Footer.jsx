@@ -22,9 +22,11 @@ const Footer = () => {
     return (
     <div style={styles.landing} className=' mb-2'>
         <p className='pr-4 mr-4'> Powered by React
-            <img src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png' alt='react logo' style={styles.image}/>
+            <img 
+              src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png' 
+              alt='react logo' style={styles.image}/>
         </p>
-        <p className='pl-4 m-2'> Madrid {year}</p>
+        <p className="p-4 m-2"> Madrid {year}</p>
        
     </div>
   )
