@@ -7,7 +7,7 @@ import resume from "../pages/about/mario-canales-cv.pdf";
 import projectImages from "../images.json";
 
 
-const AboutMe = ({ name, email, location, availability, brand, pos, saludo }) => {
+const AboutMe = ({ name, email, availability, pos, saludo }) => {
   const [ref, inView] = useInView({
     threshold: 0.2,
     triggerOnce: true,

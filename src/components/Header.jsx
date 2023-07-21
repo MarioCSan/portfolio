@@ -1,6 +1,6 @@
 // import NavLinks from "./NavLinks";
 import logo from "../images/logoN.webp";
-import NavLinks from "./NavLinks";
+import NavLinks from "./NavLinks.jsx";
 
 const Header = () => {
   return (
