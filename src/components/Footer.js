@@ -4,7 +4,7 @@ const Footer = () => {
     const year = new Date().getFullYear()
     const styles = {
       landing: {
-        color: 'white',
+        color:'#666666',
         display: "flex",
         justifyContent: "center",
         alignItems: "center",

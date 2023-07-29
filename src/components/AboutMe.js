@@ -1,6 +1,5 @@
 import aboutMeImg from "../images/aboutme.jpg";
 import { motion } from "framer-motion";
-import SocialIcons from "../components/SocialIcons";
 import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
 import resume from "../pages/about/mario-canales-cv.pdf";
@@ -13,15 +12,6 @@ const AboutMe = ({ name, email, location, availability, brand, pos, saludo }) =>
     triggerOnce: true,
   });
 
-  // const styles = {
-  //   landing: {
-  //     height: "calc(95% - 93px)",
-  //     display: "flex",
-  //     justifyContent: "center",
-  //     alignItems: "center",
-  //     backgroundColor: '#101010'
-  //   }
-  // } 
   const [downloading, setDownloading] = useState(false);
 
   useEffect(() => {
@@ -42,7 +32,7 @@ const AboutMe = ({ name, email, location, availability, brand, pos, saludo }) =>
     link.click();
   };
   return (
-    <div className="aboutContainer">
+    <div className="aboutContainer" id="#about">
       <div className="row container">
         <motion.div
           className="personalImage col-12 col-lg-4"
@@ -128,7 +118,6 @@ const AboutMe = ({ name, email, location, availability, brand, pos, saludo }) =>
                 {downloading ? "Descargando..." : "Descargar CV"}
               </button>
 
-              <SocialIcons />
             </div>
           </div>
         </motion.div>

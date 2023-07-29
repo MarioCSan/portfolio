@@ -2,6 +2,7 @@ import Typewriter from "typewriter-effect";
 // import Draw from "../../components/Draw";
 import SocialIcons from "../../components/SocialIcons";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 // import landingImage from "../../images/me2.png"
 // import { motion } from "framer-motion";
 
@@ -43,7 +44,7 @@ const Landing = ({ name }) => {
     },
     
   };
-  
+
   return (
     <section className="landing" style={styles.landing}>
       <div className="textContainer" style={styles.textContainer}>
@@ -55,11 +56,11 @@ const Landing = ({ name }) => {
             className="description"
             onInit={(typewriter) => {
               typewriter
-                .typeString("Desarrollador Full Stack")
+                .typeString("Desarrollador Backend")
                 .pauseFor(1500)
-                .deleteChars(10)
+                .deleteChars(9)
                 .pauseFor(500)
-                .typeString("Multiplataforma")
+                .typeString("Frontend")
                 .pauseFor(1500)
                 .deleteAll()
                 .typeString("Traigo tus ideas a la vida")
