@@ -1,5 +1,4 @@
 import { useRef, useEffect } from "react";
-
 const Draw = () => {
   const canvasRef = useRef(null);
   const lastPositionRef = useRef(null);
@@ -28,12 +27,15 @@ const Draw = () => {
   }, []);
 
   return (
-    <canvas
-      ref={canvasRef}
-      style={{ position: "fixed", top: 100, left: 0 }}
-      width={window.innerWidth}
-      height={window.innerHeight}
-    />
+    <div>
+      <canvas
+        ref={canvasRef}
+        style={{ position: "fixed", top: 100, left: 0 }}
+        width={window.innerWidth}
+        height={window.innerHeight}
+      />
+
+    </div>
   );
 };
 

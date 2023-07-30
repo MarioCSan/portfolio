@@ -95,6 +95,7 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-left: 10px;
+  z-index: 0;
 }
 
 .logo {
@@ -143,6 +144,7 @@ header {
 .closeMenu {
   height: 20px;
   transition: transform 0.5s ease-in-out;
+  box-shadow: white
 }
 
 .closeMenu {
