@@ -1,6 +1,5 @@
 import AboutMe from "../../components/AboutMe";
 import PageHeader from "../../components/PageHeader";
-import Particulas from "../../components/Particulas";
 
 const About = ({ name, location, brand, email, availability, presentar, yoSoy, pos, saludo  }) => {
   return (
