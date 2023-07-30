@@ -1,6 +1,7 @@
 import projectData from "./projectsData.json";
 import Project from "../../components/Project";
 import PageHeader from "../../components/PageHeader";
+import Particulas from "../../components/Particulas";
 
 const Portfolio = () => {
   const ProjectList = () =>
@@ -20,6 +21,7 @@ const Portfolio = () => {
 
   return (
     <section className="portfolio" id="portfolio">
+      <Particulas />
       <PageHeader title="Portfolio" description="Visualiza mi trabajo" />
       <div className="row">
       

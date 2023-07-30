@@ -3,6 +3,8 @@ import Typewriter from "typewriter-effect";
 import SocialIcons from "../../components/SocialIcons";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
+import Particles from "../../components/Particulas";
+import Particulas from "../../components/Particulas";
 // import landingImage from "../../images/me2.png"
 // import { motion } from "framer-motion";
 
@@ -87,6 +89,7 @@ const Landing = ({ name }) => {
           src={landingImage}
           alt="Soy yo"
         /> */}
+        <Particulas />
 
         <SocialIcons />
       </div>
