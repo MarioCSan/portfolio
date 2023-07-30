@@ -10,12 +10,15 @@ const Particulas = () => {
     // starting from v2 you can add only the features you need reducing the bundle size 
     await loadFull(main); 
   }; 
- 
+  const particlesLoaded = (container) => {
+    console.log(container);
+  }; 
   return (
     <div>
       <Particles
         id="tsparticles"
         init={particlesInit}
+        loaded={particlesLoaded}
         options={{
           background: {
             color: "rgb(10,10,25)",

@@ -2,8 +2,6 @@ import Typewriter from "typewriter-effect";
 // import Draw from "../../components/Draw";
 import SocialIcons from "../../components/SocialIcons";
 import { Link } from "react-router-dom";
-import { useEffect } from "react";
-import Particles from "../../components/Particulas";
 import Particulas from "../../components/Particulas";
 // import landingImage from "../../images/me2.png"
 // import { motion } from "framer-motion";
@@ -79,20 +77,12 @@ const Landing = ({ name }) => {
           </Link>
         </div>
       </div>
-      <div className="image-container">
-        {/* <motion.img
-          className="landingImage"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 0.4 }}
-          transition={{ duration: 1, ease: "easeInOut" }}
-          style={styles.landingImage}
-          src={landingImage}
-          alt="Soy yo"
-        /> */}
-        <Particulas />
 
-        <SocialIcons />
+      <div>
+        <Particulas />
       </div>
+
+      <SocialIcons />
     </section>
   );
 };

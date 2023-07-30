@@ -1,7 +1,6 @@
 import Header from "./components/Header";
 import AnimatedRoutes from "./components/AnimatedRoutes";
 import Footer from './components/Footer'
-import Particulas from "./components/Particulas";
 // import Landing from "./pages/landing/Landing";
 // import AboutMe from "./components/AboutMe";
 // import Portfolio from "./pages/portfolio/Portfolio";
