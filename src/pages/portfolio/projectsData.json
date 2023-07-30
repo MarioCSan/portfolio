@@ -1,13 +1,13 @@
 [
   {
-    "title": "Aviatore",
-    "image": "./projectImages/aviatore.png",
-    "description": "Esta maqueta la deiseñe para el módulo de Diseño en DAW. Se pidio que se usasen animaciones CSS como algo obligatorio. ",
-    "technologies": "Javascript | Bootstrap",
-    "github": "https://github.com/DrunkPsyduck/Aviatore",
-    "deployed": "https://drunkpsyduck.github.io/Aviatore/",
-    "bgcolor": "#f37737",
-    "disabled": "false",
+    "title": "El tiempo",
+    "image": "./projectImages/weatherN.png",
+    "description": "Bajo desaarrollo. Esta aplicación hace uso de una API para obtener los datos del tiempo actual y los próximos días. Además, según la hora local, cambia el color de fondo", 
+    "technologies": "React | TailwindCSS",
+    "github": "https://github.com/DrunkPsyduck/weather",
+    "deployed": "https://Tiempo.mariocanales.es",
+    "bgcolor": "#8b00b5",
+    "disabled": "true",
     "id": "1"
   },  
   {
@@ -22,14 +22,15 @@
     "id": "2"
   },
   {
-    "title": "El tiempo",
-    "image": "./projectImages/weatherN.png",
-    "description": "Bajo desaarrollo. Esta aplicación hace uso de una API para obtener los datos del tiempo actual y los próximos días. Además, según la hora local, cambia el color de fondo", 
-    "technologies": "React | TailwindCSS",
-    "github": "https://github.com/DrunkPsyduck/weather",
-    "deployed": "https://Tiempo.mariocanales.es",
-    "bgcolor": "#8b00b5",
-    "disabled": "true",
+    "title": "Aviatore",
+    "image": "./projectImages/aviatore.png",
+    "description": "Esta maqueta la deiseñe para el módulo de Diseño en DAW. Se pidio que se usasen animaciones CSS como algo obligatorio. ",
+    "technologies": "Javascript | Bootstrap",
+    "github": "https://github.com/DrunkPsyduck/Aviatore",
+    "deployed": "https://drunkpsyduck.github.io/Aviatore/",
+    "bgcolor": "#f37737",
+    "disabled": "false",
     "id": "3"
   }
+
 ]
