@@ -58,7 +58,7 @@ const Landing = ({ name }) => {
               typewriter
                 .typeString("Desarrollador Backend")
                 .pauseFor(1500)
-                .deleteChars(9)
+                .deleteChars(7)
                 .pauseFor(500)
                 .typeString("Frontend")
                 .pauseFor(1500)
