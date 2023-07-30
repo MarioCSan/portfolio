@@ -14,9 +14,12 @@ const Particulas = () => {
     console.log(container);
   }; 
   return (
-    <div>
+    <div style={{padding: '5%'}}>
       <Particles
         id="tsparticles"
+        style={{ position: "fixed", top: 100, left: 0 }}
+        width={window.innerWidth}
+        height={window.innerHeight}
         init={particlesInit}
         loaded={particlesLoaded}
         options={{

@@ -47,6 +47,7 @@ const Landing = ({ name }) => {
 
   return (
     <section className="landing" style={styles.landing}>
+      <Particulas />
       <div className="textContainer" style={styles.textContainer}>
         <h1 className="name" style={styles.name}>
           {name}
@@ -77,11 +78,6 @@ const Landing = ({ name }) => {
           </Link>
         </div>
       </div>
-
-      <div>
-        <Particulas />
-      </div>
-
       <SocialIcons />
     </section>
   );
