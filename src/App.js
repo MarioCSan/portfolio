@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import AnimatedRoutes from "./components/AnimatedRoutes";
 import Footer from './components/Footer'
+import Particulas from "./components/Particulas";
 
 
 // import Landing from "./pages/landing/Landing";
@@ -29,29 +30,11 @@ function App() {
     
   return (
     <>
-      
       <Header />
+      <Particulas className="tsparticles" />
 
       <AnimatedRoutes personalDetails={personalDetails} />
-
       <Footer />
-      {/* <Landing />
-      <div className="container" id="about">
-        <AboutMe
-          name={personalDetails.name}
-          location={personalDetails.location}
-          email={personalDetails.email}
-          availability={personalDetails.availability}
-          brand={personalDetails.brand}
-          yoSoy={personalDetails.yoSoy}
-          presentar={personalDetails.presentar}
-          pos={personalDetails.pos}
-          saludo={personalDetails.saludo}
-        />
-        <Portfolio />
-        
-        <SocialIcons />
-      </div> */}
     </>
   );
 }

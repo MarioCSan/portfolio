@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className="header" >
       <Link to="/" rel="noreferrer">
-        <img className="logo" src={logo} alt="Logo" width='auto' height='auto'  />
+        <img className="logo" src={logo} style={{zIndex: 3}} alt="Logo" width='auto' height='auto'  />
       </Link>
       <NavLinks />
     </header>

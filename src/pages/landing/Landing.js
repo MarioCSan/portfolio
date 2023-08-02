@@ -1,5 +1,4 @@
 import Typewriter from "typewriter-effect";
-import Draw from "../../components/Draw";
 import SocialIcons from "../../components/SocialIcons";
 import { Link } from "react-router-dom";
 // import landingImage from "../../images/me2.png"
@@ -46,7 +45,7 @@ const Landing = ({ name }) => {
 
   return (
     <section className="landing" style={styles.landing}>
-      <Draw />
+
       <div className="textContainer" style={styles.textContainer}>
         <h1 className="name" style={styles.name}>
           {name}
