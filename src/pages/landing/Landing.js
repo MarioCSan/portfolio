@@ -67,7 +67,7 @@ const Landing = ({ name }) => {
         </div>
         <div className="m-4 m p-6 btncontainer">
           <Link to="/about">
-            <button className="btn m-4 downloadCV button" onMouseOver={(e)=>{console.log(e)}}>Conóceme</button>
+            <button className="btn m-4 downloadCV button">Conóceme</button>
           </Link>
           <Link to="/portfolio">
             <button className="btn m-4 downloadCV button">Portfolio</button>
