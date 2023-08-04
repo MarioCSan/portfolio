@@ -7,7 +7,10 @@ const Footer = () => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        fontWeight: '500'
+        fontWeight: '500',
+        position: 'relative',
+        zindex: 3,
+        color: 'white'
       },
       parrafo:{
         rightPadding: '4px'
@@ -19,9 +22,8 @@ const Footer = () => {
       }
     };
     return (
-    <footer style={styles.landing} className=' mb-2'>
-        <p className='pl-4 m-2 text-slate-400'> Madrid {year}</p>
-       
+    <footer style={styles.landing} className='mb-2'>
+        <p className='pl-4 m-2'> Madrid {year}</p>
     </footer>
   )
 }

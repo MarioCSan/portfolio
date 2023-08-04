@@ -7,10 +7,6 @@ import Particulas from "../../components/Particulas";
 // import { motion } from "framer-motion";
 
 const Landing = ({ name }) => {
-<<<<<<< HEAD
-=======
-
->>>>>>> fb701749dee4ac70f7c01560d624a03b6617152c
 
   const styles = {
     landing: {
@@ -46,12 +42,8 @@ const Landing = ({ name }) => {
       paddingBottom: "28px",
     },
     
-<<<<<<< HEAD
   };
 
-=======
-  }
->>>>>>> fb701749dee4ac70f7c01560d624a03b6617152c
 
   return (
     <section className="landing" style={styles.landing}>
