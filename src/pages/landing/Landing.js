@@ -1,9 +1,6 @@
 import Typewriter from "typewriter-effect";
 import SocialIcons from "../../components/SocialIcons";
 import { Link } from "react-router-dom";
-import Draw from "../../components/Draw";
-// import landingImage from "../../images/me2.png"
-// import { motion } from "framer-motion";
 
 const Landing = ({ name }) => {
 
@@ -46,7 +43,7 @@ const Landing = ({ name }) => {
 
   return (
     <section className="landing" style={styles.landing}>
-      <Draw />
+      {/* <Draw /> */}
       <div className="textContainer" style={styles.textContainer}>
         <h1 className="name" style={styles.name}>
           {name}
@@ -70,7 +67,7 @@ const Landing = ({ name }) => {
         </div>
         <div className="m-4 m p-6 btncontainer">
           <Link to="/about">
-            <button className="btn m-4 downloadCV button">Conóceme</button>
+            <button className="btn m-4 downloadCV button" onMouseOver={(e)=>{console.log(e)}}>Conóceme</button>
           </Link>
           <Link to="/portfolio">
             <button className="btn m-4 downloadCV button">Portfolio</button>
