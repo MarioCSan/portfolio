@@ -21,7 +21,7 @@ const Particulas = () => {
           background: {
             color: "rgb(10,10,25)",
           },
-          fpsLimit: 60,
+          fpsLimit: 100,
           particles: {
             shape: {
               type: "circle",
