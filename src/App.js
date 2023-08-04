@@ -30,9 +30,9 @@ function App() {
     
   return (
     <>
+      {" "}
+      <Particulas className='tsparticles'/>
       <Header />
-      <Particulas className="tsparticles" />
-
       <AnimatedRoutes personalDetails={personalDetails} />
       <Footer />
     </>
