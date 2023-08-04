@@ -1,11 +1,8 @@
-import React, { useRef } from "react";
+import React from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import Footer from "./Footer";
 
 const Particulas = () => {
-  const canvasRef = useRef(null);
-  const canvas = canvasRef.current;
 
   const particlesInit = async (main) => { 
     console.log(main); 
@@ -14,9 +11,7 @@ const Particulas = () => {
     // starting from v2 you can add only the features you need reducing the bundle size 
     await loadFull(main); 
   }; 
-  const particlesLoaded = (container) => {
-    console.log(container);
-  }; 
+
   return (
     <div style={{ width: "400px" }}>
       <Particles

@@ -2,7 +2,6 @@ import Typewriter from "typewriter-effect";
 import SocialIcons from "../../components/SocialIcons";
 import { Link } from "react-router-dom";
 import Draw from "../../components/Draw";
-import Particulas from "../../components/Particulas";
 // import landingImage from "../../images/me2.png"
 // import { motion } from "framer-motion";
 
