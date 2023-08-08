@@ -23,7 +23,7 @@ const Footer = () => {
     };
     return (
     <footer style={styles.landing} className='mb-2'>
-        <p className='pl-4 m-2'> Madrid {year}</p>
+        <p className='pl-4 m-2'>Desarrollado con ♥. Madrid {year}</p>
     </footer>
   )
 }
