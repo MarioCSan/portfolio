@@ -10,7 +10,7 @@ const Footer = () => {
         fontWeight: '500',
         position: 'relative',
         zindex: 3,
-        color: 'white'
+        color: '#d1bdbdd2'
       },
       parrafo:{
         rightPadding: '4px'
