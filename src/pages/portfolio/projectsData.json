@@ -23,7 +23,7 @@
   },
   {
     "title": "Drawer",
-    "image": "./projectImages/aviatore.png",
+    "image": "",
     "description": "Dibuja sin limites con Drawer. En esta aplicación puedes usar el navegador como un lienzo para dar rienda suelta a tu creatividad",
     "technologies": "Javascript | Bootstrap",
     "github": "https://github.com/DrunkPsyduck/Drawer",
