@@ -23,9 +23,9 @@
   },
   {
     "title": "Drawer",
-    "image": "",
+    "image": "./projectImages/WeatherN.png",
     "description": "Dibuja sin limites con Drawer. En esta aplicación puedes usar el navegador como un lienzo para dar rienda suelta a tu creatividad",
-    "technologies": "Javascript | Bootstrap",
+    "technologies": "React + Vite",
     "github": "https://github.com/DrunkPsyduck/Drawer",
     "deployed": "https://drawer.mariocanales.es",
     "bgcolor": "#03fc73",
