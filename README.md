@@ -2,14 +2,6 @@
 # Portfolio
 Este repositorio contiene mi portfolio web, escrito en react, basado en diferentes portfolios web que me han servido de inspiracion. La intencion es agrupar mis proyectos en esta aplicación 
 
-## Proximamente
-
-Migracion de React Vanilla a Vite
-
-## Errores y problemas
-
-Particles no muestra imagenes del header, importantes en modo movil para la navegacion
-
 ## Uso
 1. Descargar el código del repositorio y dejarlo en la carpeta destino deseada.
 2. Colocarse dentro de la carpeta del repositorio
