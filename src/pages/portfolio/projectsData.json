@@ -23,7 +23,7 @@
   },
   {
     "title": "Drawer",
-    "image": "./projectImages/WeatherN.png",
+    "image": "./projectImages/Drawer.png",
     "description": "¡ATENCIÓN: Esta app solo es funcional en dispositivos que utilicen ratón! ¡Dibuja sin limites con Drawer!. En esta aplicación puedes usar el navegador como un lienzo para dar rienda suelta a tu creatividad",
     "technologies": "React + Vite",
     "github": "https://github.com/DrunkPsyduck/Drawer",
