@@ -24,7 +24,7 @@
   {
     "title": "Drawer",
     "image": "./projectImages/WeatherN.png",
-    "description": "Dibuja sin limites con Drawer. En esta aplicación puedes usar el navegador como un lienzo para dar rienda suelta a tu creatividad",
+    "description": "¡ATENCIÓN: Esta app solo es funcional en dispositivos que hagan uso de ratón! Dibuja sin limites con Drawer. En esta aplicación puedes usar el navegador como un lienzo para dar rienda suelta a tu creatividad",
     "technologies": "React + Vite",
     "github": "https://github.com/DrunkPsyduck/Drawer",
     "deployed": "https://drawer.mariocanales.es",
@@ -35,7 +35,7 @@
   {
     "title": "Aviatore",
     "image": "./projectImages/aviatore.png",
-    "description": "Esta maqueta la deiseñe para el módulo de Diseño en DAW. Se pidio que se usasen animaciones CSS como algo obligatorio. ",
+    "description": "Esta maqueta la diseñe para el módulo de Diseño en DAW. Se pidio que se usasen animaciones CSS como algo obligatorio. ",
     "technologies": "Javascript | Bootstrap",
     "github": "https://github.com/DrunkPsyduck/Aviatore",
     "deployed": "https://drunkpsyduck.github.io/Aviatore/",
