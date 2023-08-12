@@ -4,13 +4,7 @@ Este repositorio contiene mi portfolio web, escrito en react, basado en diferent
 
 ## Proximamente
 
-Migracion de React Vanilla a Vite
-
-## Errores y problemas
-
-Particles no muestra imagenes del header, importantes en modo movil para la navegacion
-
-## Uso
+## Uso en local
 1. Descargar el código del repositorio y dejarlo en la carpeta destino deseada.
 2. Colocarse dentro de la carpeta del repositorio
 3. Abrir un terminal
