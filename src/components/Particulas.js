@@ -47,7 +47,7 @@ const Particulas = () => {
               animation: {
                 enable: true,
                 minimumValue: 0.5,
-                speed: 1.6,
+                speed: 2.5,
                 sync: false,
               },
               random: {
