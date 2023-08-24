@@ -40,10 +40,9 @@ const Landing = ({ name }) => {
     
   };
 
-
-  return (
+  
+  return(
     <section className="landing" style={styles.landing}>
-      {/* <Draw /> */}
       <div className="textContainer" style={styles.textContainer}>
         <h1 className="name" style={styles.name}>
           {name}
