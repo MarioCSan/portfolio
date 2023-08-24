@@ -12,7 +12,7 @@ const Project = ({ technologies, title, image, color, id, github, deployed, disa
 
   const variants = {
     hidden: { x: id % 2 === 0 ? "10vw" : "-10vw", opacity: 0 },
-    visible: { x: 0, opacity: 1 },
+    visible: { x: 0, opacity: 0.95 },
   };
 
   Modal.setAppElement("#root");
