@@ -1,8 +1,9 @@
 
 # Portfolio
-Este repositorio contiene mi portfolio web, escrito en react, basado en diferentes portfolios web que me han servido de inspiracion. La intencion es agrupar mis proyectos en esta aplicación 
+Este repositorio contiene mi portfolio web, escrito en react (create-react-app), basado en diferentes portfolios web que me han servido de inspiracion. La intencion es agrupar mis proyectos en esta aplicación 
 
-
+## Proximamente
+Se migrará a Vite o a NextJS
 
 ### Uso en local
 1. Descargar el código del repositorio y dejarlo en la carpeta destino deseada.
