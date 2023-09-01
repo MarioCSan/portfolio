@@ -122,7 +122,7 @@ const AboutMe = ({ name, email, location, availability, brand, pos, saludo }) =>
                 to="/Contacto"
                 rel="noreferrer"
                 className="btn downloadCV"
-              > Enviame un mensaje </Link>
+              > Envíame un mensaje </Link>
             </div>
           </div>
         </motion.div>

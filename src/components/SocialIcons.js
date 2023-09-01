@@ -16,12 +16,6 @@ const SocialIcons = () => {
       <a className="icon" style={styles.icon} href="https://www.linkedin.com/in/mariocanalessanchez/" target="_blank" rel="noreferrer">
         <i className="fa-brands fa-linkedin" aria-hidden="true" title="Perfil Linkedin"></i>
       </a>
-      {/* <a className="icon" style={styles.icon} href="https://www.instagram.com/michael.yeates/">
-        <i className="fa-brands fa-instagram" aria-hidden="true" title="Michael Yeates' Instagram Profile"></i>
-      </a>
-      <a className="icon" style={styles.icon} href="https://twitter.com/mdyeates">
-        <i className="fa-brands fa-twitter" aria-hidden="true" title="Michael Yeates' Twitter Profile"></i>
-      </a> */}
     </div>
   );
 };

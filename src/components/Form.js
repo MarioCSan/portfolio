@@ -65,7 +65,7 @@ const Form = () => {
       transition={{ duration: 0.4, ease: "easeInOut" }}
       onSubmit={handleSubmit}
     >
-      <h4 className="contentTitle">¡Enviame un mensaje!</h4>
+      <h4 className="contentTitle">¡Envíame un mensaje!</h4>
       <div className="col-12 col-md-6 formGroup" style={{ display: "inline-block" }}>
         <input
           type="text"
