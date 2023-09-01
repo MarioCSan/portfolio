@@ -1,4 +1,4 @@
-import aboutMeImg from "../images/aboutme.JPG";
+import aboutMeImg from "../images/aboutme.jpg";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
