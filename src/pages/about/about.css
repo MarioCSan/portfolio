@@ -86,6 +86,7 @@
 .downloadCV {
   margin-top: var(--sm-spacing);
   margin-bottom: var(--sm-spacing);
+  text-decoration: none;
 }
 
 .about .socialIcons .icon {

@@ -9,6 +9,7 @@ const Footer = () => {
         alignItems: "center",
         fontWeight: '500',
         position: 'relative',
+        bottom: '0',
         zindex: 3,
         color: '#d1bdbdd2'
       },

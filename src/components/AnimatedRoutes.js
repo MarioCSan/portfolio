@@ -38,7 +38,7 @@ const AnimatedRoutes = ({ personalDetails }) => {
 
       <Route path="/portfolio" element={<Portfolio />} />
       <Route
-        path="/contact"
+        path="/contacto"
         element={
           <Contact
             name={personalDetails.name}

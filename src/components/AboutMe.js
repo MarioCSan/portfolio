@@ -4,6 +4,7 @@ import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
 import resume from "../pages/about/mario-canales-cv.pdf";
 import projectImages from "../images.json";
+import { Link } from "react-router-dom";
 
 
 const AboutMe = ({ name, email, location, availability, brand, pos, saludo }) => {
@@ -98,10 +99,9 @@ const AboutMe = ({ name, email, location, availability, brand, pos, saludo }) =>
                 <div className="col-12 col-md-12 info pt-2">
                   <span className="mb-4">Conocimientos en:</span>
                   <div className="pt-3 col-12 col-md-12 info">
-                	  {projectImages.map((lang, i)=>{
+                    {projectImages.map((lang, i) => {
                       return <img key={i} src={lang.imagen} alt={lang.title} />;
                     })}
-
                   </div>
                 </div>
                 {/* <div className="col-12 col-md-6 info">
@@ -117,6 +117,12 @@ const AboutMe = ({ name, email, location, availability, brand, pos, saludo }) =>
               >
                 {downloading ? "Descargando..." : "Descargar CV"}
               </button>
+
+              <Link
+                to="/Contacto"
+                rel="noreferrer"
+                className="btn downloadCV"
+              > Enviame un mensaje </Link>
             </div>
           </div>
         </motion.div>
