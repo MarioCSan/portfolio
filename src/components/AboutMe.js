@@ -117,7 +117,6 @@ const AboutMe = ({ name, email, location, availability, brand, pos, saludo }) =>
               >
                 {downloading ? "Descargando..." : "Descargar CV"}
               </button>
-
             </div>
           </div>
         </motion.div>
