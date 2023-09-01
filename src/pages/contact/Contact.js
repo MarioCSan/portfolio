@@ -5,7 +5,7 @@ import Form from "../../components/Form";
 const Contact = ({ name, email, location }) => {
   return (
     <section className="contact d-flex">
-      <PageHeader title="Contact" description="Mantengamonos en contacto" />
+      <PageHeader title="Mantengamonos en contacto" description="Enviame un mensaje" className="Contacto"/>
       <div className="contactWrap container">
           <Form />
         </div>

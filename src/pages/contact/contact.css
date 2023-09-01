@@ -4,7 +4,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  overflow: hidden;
+  z-index: 8;
   margin-top: var(--spacing);
+  padding-bottom: var(--spacing);
 }
 
 .contentTitle {
@@ -105,6 +109,7 @@ textarea {
 .mediaWrap a:hover {
   color: #03b979;
 }
+
 
 @media (min-width: 400px) {
   .contactInfo {
