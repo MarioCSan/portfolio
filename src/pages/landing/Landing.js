@@ -65,7 +65,7 @@ const Landing = ({ name }) => {
           />
         </div>
         <div className="m-4 m p-6 btncontainer">
-          <Link to="/about">
+          <Link to="/sobremi">
             <button className="btn m-4 downloadCV button">Conóceme</button>
           </Link>
           <Link to="/portfolio">
