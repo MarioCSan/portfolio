@@ -5,7 +5,7 @@ import About from "../about/About";
 import Portfolio from "../portfolio/Portfolio";
 import Contact from "../contact/Contact";
 
-const Landing = ({ name }) => {
+const Landing = ({ personalDetails }) => {
 
   const styles = {
     landing: {
@@ -54,7 +54,7 @@ const Landing = ({ name }) => {
             <div></div>
             <div className="textContainer" style={styles.textContainer}>
               <h1 className="name" style={styles.name}>
-                {name}
+                {personalDetails.name}
               </h1>
               <div className="description  mb-4">
                 <Typewriter
@@ -91,7 +91,9 @@ const Landing = ({ name }) => {
         {/* Display the about section */}
         <About />
         <Portfolio />
-        <Contact />
+        <Contact name={personalDetails.name}
+            location={personalDetails.location}
+            email={personalDetails.email}/>
       </>
     </>
   );

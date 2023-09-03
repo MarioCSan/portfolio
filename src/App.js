@@ -86,7 +86,7 @@ function App() {
               path="/"
               element={
                 <Landing
-                  name={personalDetails.name}
+                  personalDetails={personalDetails}
                   tagline={personalDetails.tagline}
                 />
               }
