@@ -60,7 +60,7 @@ const Loader = ({ setShowLoader }) => {
 
   return (
     <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh", backgroundColor: '#0a0a19' }}>
-      <CircleLoader color="#36d7b7" size={150}/>
+      <CircleLoader color="#48a3c6" size={150}/>
     </div>
   );
 };

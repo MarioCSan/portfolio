@@ -1,6 +1,6 @@
 // import NavLinks from "./NavLinks";
 import { Link } from "react-router-dom";
-import logo from "../images/logoN.png";
+import logo from "../images/LogoAzul.png";
 import NavLinks from "./NavLinks";
 
 
