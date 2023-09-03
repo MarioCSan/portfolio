@@ -8,7 +8,7 @@ to use, copy, modify, merge, merge, publish, distribute, sublicense and/or sell 
 sublicense and/or sell copies of the Software, and to permit persons to whom the Software is made available to use, copy, modify, merge, publish, distribute, sub-license and/or sell copies of the Software, subject to the following
 the Software, subject to the following conditions:
 
-1. No employee associated with Pepper Spain may use the Software without prior authorisation. 
+1. No employee associated with PepperMoney ANZ or Pepper Spain may use the Software without prior authorisation. 
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 copies or substantial portions of the Software.
