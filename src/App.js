@@ -59,7 +59,7 @@ function App() {
   
       const handleTabChange = () => {
         if (document.hidden) {
-          document.title = "👋🏻¡Hola! No te olvides de mi, Mario";
+          document.title = "👋🏻¡Hola! No te olvides de mí. -Mario";
         } else {
           document.title = originalTitle;
         }
