@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import PageHeader from "../../components/PageHeader";
 import ufo from '../../images/ufo.svg'
-import { useEffect, useState } from "react";
+import { useState } from "react";
 /**
  * Represents the 404 Page Not Found component.
  * This component is displayed when a user tries to access a non-existent page.
