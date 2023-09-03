@@ -42,7 +42,7 @@ const AboutMe = ({ name, email, location, availability, brand, pos, saludo }) =>
           animate={inView ? { x: 0, opacity: 1 } : { x: "-10vw", opacity: 0 }}
           transition={{ duration: 0.4, ease: "easeInOut" }}
         >
-          <img src={aboutMeImg} alt={name} style={{opacity: 0.9}}/>
+          <img src={aboutMeImg} alt={name} style={{ opacity: 0.9 }} />
         </motion.div>
         <motion.div
           className="personalInfo col-12 col-lg-8"
@@ -76,6 +76,17 @@ const AboutMe = ({ name, email, location, availability, brand, pos, saludo }) =>
                 desarrolladas desde .NET haciendo uso de microservicios y NuGets
                 para ampliar la funcionalidad y realizar desarrollos más
                 rápidos.
+              </p>
+              <br/>
+              <p>
+                La vida es un caleidoscopio de experiencias, mucho más allá de
+                los confines del trabajo. Cuando el código no es mi centro de
+                atención, disfruto realizando ejercicio al aire libre,
+                perdiendome en mis pensamientos mientras paseo por el campo y
+                alimento mi amor por la Fórmula Uno. En los momentos de
+                serenidad, me transformo en un aficionado a la lectura, en busca de
+                libros que despierten la inspiración y provoquen la
+                reflexión. Además, también disfruto de peliculas que despierten mi inspiración.
               </p>
             </div>
             <div className="infoContainer">
@@ -118,11 +129,10 @@ const AboutMe = ({ name, email, location, availability, brand, pos, saludo }) =>
                 {downloading ? "Descargando..." : "Descargar CV"}
               </button>
 
-              <Link
-                to="/Contacto"
-                rel="noreferrer"
-                className="btn downloadCV"
-              > Envíame un mensaje </Link>
+              <Link to="/Contacto" rel="noreferrer" className="btn downloadCV">
+                {" "}
+                Envíame un mensaje{" "}
+              </Link>
             </div>
           </div>
         </motion.div>
