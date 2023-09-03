@@ -94,7 +94,19 @@ function App() {
             <Route path="/portfolio" element={<Portfolio />} />
             <Route
               path="/sobremi"
-              element={<About brand={personalDetails.brand} />}
+              element={
+                <About
+                  name={personalDetails.name}
+                  location={personalDetails.location}
+                  email={personalDetails.email}
+                  availability={personalDetails.availability}
+                  brand={personalDetails.brand}
+                  yoSoy={personalDetails.yoSoy}
+                  presentar={personalDetails.presentar}
+                  pos={personalDetails.pos}
+                  saludo={personalDetails.saludo}
+                />
+              }
             />
 
             <Route
