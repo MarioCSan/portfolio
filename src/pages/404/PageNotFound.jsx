@@ -23,7 +23,7 @@ const PageNotFound = () => {
   return (
     <main className="contact container" >
       {/* Display the page header */}
-      <PageHeader title="Ésta no es la página que buscáis." description="Uh oh!" />
+      <PageHeader title="Ésta no es la página que buscáis." description="Oh oh!" />
 
       <div className="error-description">
         <div className="row">
