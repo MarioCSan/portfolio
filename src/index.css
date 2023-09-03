@@ -241,5 +241,15 @@ header {
     background-color: transparent;
   }
 
+  .footer {
+    display: "flex";
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    position: relative;
+    bottom: 0;
+    z-index: 3;
+    color: #d1bdbdd2;
+  }
   
 }

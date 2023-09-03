@@ -9,17 +9,9 @@ const Footer = () => {
         alignItems: "center",
         fontWeight: '500',
         position: 'relative',
-        bottom: '0',
+        bottom: '0px',
         zindex: 3,
         color: '#d1bdbdd2'
-      },
-      parrafo:{
-        rightPadding: '4px'
-      },
-      image:{
-        heigth: '20px',
-        width: '25px',
-        rightPadding: '4px'
       }
     };
     return (
