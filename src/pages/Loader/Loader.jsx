@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { CircleLoader } from "react-spinners";
 
 /**
  * Represents the Loader component.
@@ -58,9 +59,8 @@ const Loader = ({ setShowLoader }) => {
 //   };
 
   return (
-    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh" }}>
-      {/* Animated SVG */}
-   
+    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh", backgroundColor: '#0a0a19' }}>
+      <CircleLoader color="#36d7b7" size={150}/>
     </div>
   );
 };

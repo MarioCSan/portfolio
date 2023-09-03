@@ -77,8 +77,9 @@ function App() {
         <Loader setShowLoader={setShowLoader} />
       ) : (
         <>
-          <Particulas />
           <Header />
+          <Particulas />
+
           {/* Define routes */}
           <Routes location={location} key={location.pathname}>
             <Route
@@ -91,7 +92,10 @@ function App() {
               }
             />
             <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/sobremi" element={<About brand={personalDetails.brand} />} />
+            <Route
+              path="/sobremi"
+              element={<About brand={personalDetails.brand} />}
+            />
 
             <Route
               path="/contacto"
@@ -108,14 +112,11 @@ function App() {
             {/* Fallback route for unknown paths */}
             <Route path="*" element={<Navigate to="/page-not-found" />} />
           </Routes>
-          {/* Footer */}
-          
+          <footer tyle={styles.landing}>
+            <Footer />
+          </footer>
         </>
       )}
-      <footer tyle={styles.landing}>
-        <Footer/>
-      </footer>
-
     </>
   );
 }

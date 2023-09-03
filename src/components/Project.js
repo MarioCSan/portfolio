@@ -22,7 +22,6 @@ const Project = ({ technologies, title, image, color, id, github, deployed, disa
   const handleCloseModal = () => setShowModal(false);
 
   
-
   return (
     <motion.div
       ref={ref}
@@ -45,7 +44,7 @@ const Project = ({ technologies, title, image, color, id, github, deployed, disa
           <span className="viewWork">Visualizar &#8594;</span>
         </div>
         <div className="imageContainer col-6 d-flex align-items-center justify-content-center">
-          <img src={image} alt="Laptop mostrando la aplicación" />
+          <img src={image} alt="Portátil mostrando la aplicación" />
         </div>
       </div>
       <Modal
@@ -75,10 +74,11 @@ const Project = ({ technologies, title, image, color, id, github, deployed, disa
         <button className="btn" onClick={() => (window.open(github, '_blank'))}>
           GitHub 
         </button>
-        { title !== "MoneyGo"?        
+        { disabled === false ?        
           <button className="btn" onClick={() => (window.open(deployed, '_blank'))}>
-            Live link 
-          </button>:null
+            Demo
+          </button>
+            :null
           
         }
         

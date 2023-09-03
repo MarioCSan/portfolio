@@ -6,7 +6,7 @@
   align-items: center;
   position: relative;
   overflow: hidden;
-  z-index: 8;
+  z-index: 1;
   margin-top: var(--spacing);
   padding-bottom: var(--spacing);
 }
