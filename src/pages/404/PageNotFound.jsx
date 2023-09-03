@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import PageHeader from "../../components/PageHeader";
+import ufo from '../../images/ufo.svg'
+import { useEffect, useState } from "react";
 /**
  * Represents the 404 Page Not Found component.
  * This component is displayed when a user tries to access a non-existent page.
@@ -8,10 +10,20 @@ import PageHeader from "../../components/PageHeader";
  */
 
 const PageNotFound = () => {
+  const [rotation, setRotation] = useState(0)
+  
+  const rotate = () => {
+   setRotation(rotation+20);
+    setTimeout(() => {
+      setRotation(rotation-20)
+    }, 200);
+  }
+
+
   return (
-    <main className="contact container">
+    <main className="contact container" >
       {/* Display the page header */}
-      <PageHeader title="404 página no encontrada" description="Uh oh!" />
+      <PageHeader title="Ésta no es la página que buscáis." description="Uh oh!" />
 
       <div className="error-description">
         <div className="row">
@@ -26,6 +38,9 @@ const PageNotFound = () => {
           <Link to="/">
             <button className="btn downloadCV button">Ir al inicio</button>
           </Link>
+        </div>
+        <div>
+          <img src={ufo} style={{transform: `rotate(${rotation}deg)`, width:'45%'}} onClick={rotate} alt='OVNI'/>
         </div>
       </div>
     </main>
