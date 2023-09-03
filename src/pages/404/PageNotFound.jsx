@@ -13,10 +13,11 @@ const PageNotFound = () => {
   const [rotation, setRotation] = useState(0)
   
   const rotate = () => {
-   setRotation(rotation+20);
+   setRotation(20);
     setTimeout(() => {
-      setRotation(rotation-20)
+      setRotation(360)
     }, 200);
+   
   }
 
 
