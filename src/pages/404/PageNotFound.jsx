@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import PageHeader from "../../components/PageHeader";
 import ufo from '../../images/ufo.svg'
 import { useState } from "react";
+import { Toaster, toast } from "sonner";
 /**
  * Represents the 404 Page Not Found component.
  * This component is displayed when a user tries to access a non-existent page.
@@ -11,6 +12,7 @@ import { useState } from "react";
 
 const PageNotFound = () => {
   const [rotation, setRotation] = useState(0)
+  const [contador, setContador] = useState(1) 
   
   const rotate = () => {
    setRotation(20);
@@ -18,7 +20,16 @@ const PageNotFound = () => {
       setRotation(360)
     }, 200);
    
+    setContador(contador+1)
+  
+    if(contador===4){
+      toast(
+        "¡Oh no!¡Has roto el platillo volante!"
+      );
+      setRotation(140)
+    }
   }
+
 
 
   return (
@@ -42,6 +53,7 @@ const PageNotFound = () => {
         </div>
         <div>
           <img src={ufo} style={{transform: `rotate(${rotation}deg)`, width:'45%'}} onClick={rotate} alt='OVNI'/>
+          <Toaster position="top-center" />
         </div>
       </div>
     </main>

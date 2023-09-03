@@ -1,6 +1,7 @@
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import { useState } from "react";
+import { toast } from "sonner";
 
 const Form = () => {
   const [ref, inView] = useInView({
@@ -66,7 +67,10 @@ const Form = () => {
       onSubmit={handleSubmit}
     >
       <h4 className="contentTitle">¡Envíame un mensaje!</h4>
-      <div className="col-12 col-md-6 formGroup" style={{ display: "inline-block" }}>
+      <div
+        className="col-12 col-md-6 formGroup"
+        style={{ display: "inline-block" }}
+      >
         <input
           type="text"
           className="formControl"
@@ -78,7 +82,10 @@ const Form = () => {
           required
         />
       </div>
-      <div className="col-12 col-md-6 formGroup" style={{ display: "inline-block" }}>
+      <div
+        className="col-12 col-md-6 formGroup"
+        style={{ display: "inline-block" }}
+      >
         <input
           type="email"
           className="formControl"
@@ -115,11 +122,12 @@ const Form = () => {
         ></textarea>
       </div>
       <div className="col-12 formGroup formSubmit">
-        <button className="btn">{success ? "Mensaje enviado" : "Enviar mensaje"}</button>
+        <button className="btn">
+          {success ? "Mensaje enviado" : "Enviar mensaje"}
+        </button>
+        {success ? toast("¡Mensaje enviado con éxito!") : null}
       </div>
-      <div>
-       
-      </div>
+      <div></div>
     </motion.form>
   );
 };
