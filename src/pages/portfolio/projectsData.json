@@ -7,7 +7,7 @@
     "github": "https://github.com/DrunkPsyduck/weather",
     "deployed": "https://Tiempo.mariocanales.es",
     "bgcolor": "#8b00b5",
-    "disabled": "false",
+    "disabled": false,
     "id": "1"
   },  
   {
@@ -18,7 +18,7 @@
     "github": "https://github.com/DrunkPsyduck/MoneyGo",
     "deployed": "https://github.com/DrunkPsyduck/MoneyGo",
     "bgcolor": "#037A68",
-    "disabled": "true",
+    "disabled": true,
     "id": "2"
   },
   {
@@ -29,7 +29,7 @@
     "github": "https://github.com/DrunkPsyduck/Drawer",
     "deployed": "https://drawer.mariocanales.es",
     "bgcolor": "#f85781",
-    "disabled": "false",
+    "disabled": false,
     "id": "3"
   },
   {
@@ -40,7 +40,7 @@
     "github": "https://github.com/DrunkPsyduck/Aviatore",
     "deployed": "https://mariocsan.github.io/Aviatore/",
     "bgcolor": "#f37737",
-    "disabled": "false",
+    "disabled": false,
     "id": "4"
   }
 
