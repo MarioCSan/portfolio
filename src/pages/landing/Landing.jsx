@@ -73,14 +73,14 @@ const Landing = ({ personalDetails }) => {
                 }}
               />
             </div>
-            <div className="m-4 m p-6 btncontainer">
+            {/* <div className="m-4 m p-6 btncontainer">
               <Link to="/sobremi">
                 <button className="btn m-4 downloadCV button">Conóceme</button>
               </Link>
               <Link to="/portfolio">
                 <button className="btn m-4 downloadCV button">Portfolio</button>
               </Link>
-            </div>
+            </div> */}
           </div>
           <SocialIcons />
         </section>
