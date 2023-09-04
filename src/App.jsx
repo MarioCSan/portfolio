@@ -120,10 +120,10 @@ function App() {
                 />
               }
             />
-            <Route path="/page-not-found" element={<PageNotFound />} />
+            <Route path="/404" element={<PageNotFound />} />
             {/* <Route path="/portfolio/:projectTitle" element={<ProjectDetails />} /> */}
             {/* Fallback route for unknown paths */}
-            <Route path="*" element={<Navigate to="/page-not-found" />} />
+            <Route path="*" element={<Navigate to="/404" />} />
           </Routes>
           <footer tyle={styles.landing}>
             <Footer />

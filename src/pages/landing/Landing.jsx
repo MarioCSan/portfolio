@@ -1,6 +1,5 @@
 import Typewriter from "typewriter-effect";
 import SocialIcons from "../../components/SocialIcons";
-import { Link } from "react-router-dom";
 import About from "../about/About";
 import Portfolio from "../portfolio/Portfolio";
 import Contact from "../contact/Contact";
@@ -73,14 +72,7 @@ const Landing = ({ personalDetails }) => {
                 }}
               />
             </div>
-            {/* <div className="m-4 m p-6 btncontainer">
-              <Link to="/sobremi">
-                <button className="btn m-4 downloadCV button">Conóceme</button>
-              </Link>
-              <Link to="/portfolio">
-                <button className="btn m-4 downloadCV button">Portfolio</button>
-              </Link>
-            </div> */}
+
           </div>
           <SocialIcons />
         </section>
