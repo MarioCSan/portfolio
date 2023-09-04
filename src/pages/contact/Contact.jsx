@@ -8,7 +8,7 @@ const Contact = ({ name, email, location }) => {
     <>
       <main className="contact container">
         <PageHeader
-          title="Mantengámonos en contacto"
+          title="Pongámonos en contacto"
           description="Envíame un mensaje"
           className="Contacto"
         />
