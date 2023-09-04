@@ -1,5 +1,4 @@
 import AboutMe from "../../components/AboutMe";
-import PageHeader from "../../components/PageHeader";
 
 const About = ({ name, location, brand, email, availability, presentar, yoSoy, pos, saludo  }) => {
   return (
