@@ -1,6 +1,7 @@
 
 # Portfolio
-Este repositorio contiene mi portfolio web, escrito en react, basado en diferentes portfolios web que me han servido de inspiracion. La intencion es agrupar mis proyectos en esta aplicación 
+Este repositorio contiene mi portfolio web, escrito en react, basado en diferentes portfolios web que me han servido de inspiración mezclado con ideas propias. 
+La intención es agrupar mis proyectos en esta web y poder mostrarlo
 
 
 
