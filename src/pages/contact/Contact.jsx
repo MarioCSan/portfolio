@@ -8,7 +8,11 @@ const Contact = ({ name, email, location }) => {
     <>
       <main className="contact container">
         <PageHeader
+<<<<<<< HEAD
           title="Pongámonos en contacto"
+=======
+          title="Ponte en contacto conmigo"
+>>>>>>> 5686b5bc67edd94e75422239b1c34322d8f23d06
           description="Envíame un mensaje"
           className="Contacto"
         />
