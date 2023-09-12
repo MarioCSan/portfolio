@@ -77,17 +77,7 @@ const AboutMe = ({ name, email, location, availability, brand, pos, saludo }) =>
                 para ampliar la funcionalidad y realizar desarrollos más
                 rápidos.
               </p>
-              <br/>
-              <p>
-                La vida es un caleidoscopio de experiencias, mucho más allá de
-                los confines del trabajo. Cuando el código no es mi centro de
-                atención, disfruto realizando ejercicio al aire libre,
-                perdiendome en mis pensamientos mientras paseo por el campo y
-                alimento mi amor por la Fórmula Uno. En los momentos de
-                serenidad, me transformo en un aficionado a la lectura, en busca de
-                libros que despierten la inspiración y provoquen la
-                reflexión. Además, también disfruto de peliculas que despierten mi inspiración.
-              </p>
+              
             </div>
             <div className="infoContainer">
               <div className="row">
