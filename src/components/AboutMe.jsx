@@ -77,7 +77,6 @@ const AboutMe = ({ name, email, location, availability, brand, pos, saludo }) =>
                 para ampliar la funcionalidad y realizar desarrollos más
                 rápidos.
               </p>
-              
             </div>
             <div className="infoContainer">
               <div className="row">
