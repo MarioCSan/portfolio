@@ -40,7 +40,7 @@ const AboutMe = ({ name, email, location, availability, brand, pos, saludo }) =>
           ref={ref}
           initial={{ x: "-10vw", opacity: 0 }}
           animate={inView ? { x: 0, opacity: 1 } : { x: "-10vw", opacity: 0 }}
-          transition={{ duration: 0.4, ease: "easeInOut" }}
+          transition={{ duration: 0.3, ease: "easeInOut" }}
         >
           <img src={aboutMeImg} alt={name} style={{ opacity: 0.9 }} />
         </motion.div>
@@ -49,7 +49,7 @@ const AboutMe = ({ name, email, location, availability, brand, pos, saludo }) =>
           ref={ref}
           initial={{ x: "10vw", opacity: 0 }}
           animate={inView ? { x: 0, opacity: 1 } : { x: "10vw", opacity: 0 }}
-          transition={{ duration: 0.4, ease: "easeInOut" }}
+          transition={{ duration: 0.3, ease: "easeInOut" }}
         >
           <div className="contentContainer">
             <h4> {saludo} </h4>
