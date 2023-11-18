@@ -13,4 +13,4 @@ La intención es agrupar mis proyectos en esta web y poder mostrarlo
 5. Ejecutar `npm i` para instalar las dependencias
 6. Una vez terminado, utiliza `npm start`
 
-Nota: dependiendo si es la versión con create-react-app, se abrira automaticamente en el navegador web. Si es con Vite, la direccion IP de la aplicación web se mostrara en el terminal.
+
