@@ -2,7 +2,7 @@ import aboutMeImg from "../images/aboutme.jpg";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
-import resume from "../pages/about/mario-canales-cv.pdf";
+import resume from "../pages/about/Mario-Canales-cv.pdf";
 import projectImages from "../images.json";
 import { Link } from "react-router-dom";
 
