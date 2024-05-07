@@ -2,7 +2,7 @@
   {
     "title": "El tiempo",
     "image": "./projectImages/weatherN.png",
-    "description": "Bajo desaarrollo. Esta aplicación hace uso de una API para obtener los datos del tiempo actual y los próximos días. Espera, también hay un truco genial: el fondo se oscurece o se ilumina, dependiendo de si es la hora de tomar el sol o de mirar las estrellas en la ciudad que estés comprobando.", 
+    "description": "Conoce la previsión metereologica del sitio que desees. Espera, también hay un truco genial: el fondo se oscurece o se ilumina, dependiendo de si es la hora de tomar el sol o de mirar las estrellas en la ciudad que estés comprobando.", 
     "technologies": "React | TailwindCSS",
     "github": "https://github.com/DrunkPsyduck/weather",
     "deployed": "https://Tiempo.mariocanales.es",
@@ -13,7 +13,7 @@
   {
     "title": "MoneyGo",
     "image": "./projectImages/moneyGo.png",
-    "description": "Esta aplicación fue el proyecto del Máster que realicé. Esta aplicación hace uso de .Net Core para la parte del backend, Sql Server para BBDD y javascript y bootstrap para el frontal. Se fue escalando para añadir seguridad, llevando el servidor a una API y desplegando en Azure y AWS. Esta aplicación web permite a los usuarios llevar un control sobre sus finanzas haciendo uso de gráficos. Además, en caso de perder la contraseña, se podía cambiar mediante un email de recuperación.",
+    "description": "Controla tus finanzas obteniendo los gasto y mostrandolos con gráficas avanzadas que permitiran saber en que gastas tu dinero. Fue mi proyecto de fin de Máster. Hace uso de .Net Core para la parte del backend, Sql Server para BBDD y javascript. Se fue escalando para añadir seguridad, llevando el servidor a una API y desplegando en Azure y AWS. ",
     "technologies": ".NET CORE | Javascript | Bootstrap",
     "github": "https://github.com/DrunkPsyduck/MoneyGo",
     "deployed": "https://github.com/DrunkPsyduck/MoneyGo",
@@ -35,7 +35,7 @@
   {
     "title": "Aviatore",
     "image": "./projectImages/aviatore.png",
-    "description": "Esta maqueta la diseñe para el módulo de Diseño en DAW. Se pidió que se usasen animaciones CSS como algo obligatorio. ",
+    "description": "Aviatore es una maqueta creada para una empresa ficticia de viajes ",
     "technologies": "Javascript | Bootstrap",
     "github": "https://github.com/DrunkPsyduck/Aviatore",
     "deployed": "https://mariocsan.github.io/Aviatore/",
