@@ -56,10 +56,16 @@ const AboutMe = ({ name, email, location, availability, brand, pos, saludo }) =>
             <h5> {pos} </h5>
             <div className="contentDescription">
               <p>
-                Creo soluciones web con las últimas tecnologías disponibles.
-                Dispongo de conocimientos en las últimas tecnologías para el
-                desarrollo de aplicaciones web con diseños modernos y
-                atractivos.
+                Todos tenemos una historia que contar. La mía empieza con una película. Piratas de Silicon Valley. 
+                En este filme, si no sabes, de que va. fue durante una proyección de una película. Piratas de Silicon Valley. 
+                
+                Si no sabes sobre que trata, trata sobre los orígenes de Apple con los Steves (Jobs y Wozniak) y de Microsoft con Bill Gates, Paul Allen, y más tarde, Steve Ballmer. 
+
+                Volviendo a la historia. En ese momento, quise ser como ellos. Aprender a programar y crear software que cambiase el mundo, que impactase a sus clientes y que inspirase. Elegí ese camino que no estuvo ausente de dificultades. Estudie Desarrollo Web el el IES Palomeras-Vallecas. Todo parecía estar encaminado. Parecía. Pero un virus decidió expandirse por el mundo y dejarnos encerrados durante unos meses. Eso pospuso mis planes. Muchos dirán que los frenó. Nada más lejos de la realidad. Tuve la gran oportunidad de estudiar un máster de Desarrollo web con REACT, ANGULAR y .NET core. Aprendí a usar AZURE y AWS y obtuve los certificados. 
+
+                Cuándo mis estudios terminaron, me dispuse a trabajar para obtener experiencia en estas tecnologías. Me enseñaron, aprendí, mejore y enseñe mis conocimientos. Cada día aprendo de aquellos que saben más que yo. Con este aprendizaje continuo, sigo mi sueño de cambiar el mundo. Con el paso de los años y recordando esa película, más me voy pareciendo a esa primera Apple, no solo disfruto de hacer un código bonito, si no que también sea bonito, fácil de usar y que causa un impacto en los usuarios.
+
+                Aunque transforme ideas en obras de arte, también disfruto aplicando esos conocimientos al negocio. No descarto en aprovechar estos conocimientos y aplicarlos al negocio. Todo va de la mano. Si esto te parece interesante, quizás debamos tener una reunión y charlar tranquilamente.
               </p>
               <br />
               <p>
