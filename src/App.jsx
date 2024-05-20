@@ -17,7 +17,7 @@ function App() {
     name: "Mario Canales",
     location: "Madrid, ES",
     email: "canalessanchezmario@gmail.com",
-    availability: "En busqueda activa de empleo",
+    availability: "Dispuesto a escuchar ofertas",
     brand:
       "Creo soluciones y aplicaciones con las últimas tecnologías en el desarrollo web.\n \nMe gusta desarrollar en la plataforma .NET para aprovechar su capacidad multiplataforma con Xamarin/MAUI. \nReact o Angular son mis opciones favoritas para el desarrollo del FrontEnd.\n Además, he creado aplicaciones, que hacen usos de recursos en Azure o AWS.",
     presentar: "Dejame Presentarme",
