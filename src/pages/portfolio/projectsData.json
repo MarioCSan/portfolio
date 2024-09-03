@@ -45,12 +45,12 @@
   },
   {
     "title": "CarAuctions",
-    "image": "./projectImages/aviatore.png",
+    "image": "./projectImages/readme.png",
     "description": "Un sitio web de subastas de coches. Con una base de microservicios usando Postgres y MongoDB junto con RabbitMQ hacen que esta aplicación sea escalabre y segura. Aún se encuentra bajo desarrollo.",
     "technologies": ".NET | Nextjs | RabbitMQ | Postgres | MongoDb",
     "github": "https://github.com/MarioCSan/CarAuctions",
     "deployed": "https://mariocsan.github.io/Aviatore/",
-    "bgcolor": "#f37737",
+    "bgcolor": "#8b00b5",
     "disabled": true,
     "id": "5"
   }
