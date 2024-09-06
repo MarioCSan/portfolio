@@ -58,16 +58,6 @@ function App() {
         setOriginalTitle(document.title);
       }
   
-      const handleTabChange = () => {
-        if (document.hidden) {
-          document.title = "👋🏻¡Hola! No te olvides de mí. -Mario";
-        } else {
-          document.title = originalTitle;
-        }
-      };
-  
-      window.addEventListener("visibilitychange", handleTabChange);
-      return () => window.removeEventListener("visibilitychange", handleTabChange);
     }, [location, originalTitle]);
   
     

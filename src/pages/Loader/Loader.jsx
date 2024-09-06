@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { CircleLoader } from "react-spinners";
+import { FadeLoader } from "react-spinners";
 
 /**
  * Represents the Loader component.
@@ -17,50 +17,9 @@ const Loader = ({ setShowLoader }) => {
     }, 2800);
   }, [setShowLoader]);
 
-  // Animation variants for the SVG icons
-//   const iconVariant1 = {
-//     hidden: {
-//       pathLength: 0,
-//       fill: "rgb(19, 26, 34)",
-//     },
-//     visible: {
-//       pathLength: 5,
-//       fill: "rgb(243, 243, 243)",
-//       stroke: "rgb(243, 243, 243)",
-//       strokeWidth: 3,
-//       scale: 0,
-//       transition: {
-//         default: { duration: 3, ease: "easeIn" },
-//         fill: { duration: 3, ease: [1, 0, 0.8, 1] },
-//         stroke: { duration: 3, ease: [1, 0, 0.8, 1] },
-//         scale: { duration: 3, ease: [1, 1, 0.5, 0] },
-//       },
-//     },
-//   };
-
-//   const iconVariant2 = {
-//     hidden: {
-//       pathLength: 0,
-//       fill: "rgb(19, 26, 34)",
-//     },
-//     visible: {
-//       pathLength: 5,
-//       fill: "rgb(72, 163, 198)",
-//       stroke: "rgb(72, 163, 198)",
-//       scale: 0,
-//       strokeWidth: 3,
-//       transition: {
-//         default: { duration: 3, ease: "easeIn" },
-//         fill: { duration: 3, ease: [1, 0, 0.8, 1] },
-//         stroke: { duration: 3, ease: [1, 0, 0.8, 1] },
-//         scale: { duration: 3, ease: [1, 1, 0.5, 0] },
-//       },
-//     },
-//   };
-
   return (
     <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh", backgroundColor: '#0a0a19' }}>
-      <CircleLoader color="#48a3c6" size={150}/>
+      <FadeLoader color="#48a3c6" size={150}/>
     </div>
   );
 };

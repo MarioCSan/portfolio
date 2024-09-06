@@ -1,21 +1,5 @@
 [
     {
-      "title": "Javascript",
-      "imagen": "./projectImages/javascript.svg"
-    },
-    {
-      "title": "React",
-      "imagen": "./projectImages/React.svg"
-    },
-    {
-      "title": "TypeScript",
-      "imagen": "./projectImages/typescript.svg"
-    },
-    {
-      "title": "Angular",
-      "imagen": "./projectImages/angular.svg"
-    },
-    {
       "title": "C#",
       "imagen": "./projectImages/csharp.svg"
     },
@@ -24,8 +8,12 @@
       "imagen": "./projectImages/net.svg"
     },
     {
-      "title": "Xamarin",
-      "imagen": "./projectImages/Xamarin.svg"
+      "title": "Javascript",
+      "imagen": "./projectImages/javascript.svg"
+    },
+    {
+      "title": "React",
+      "imagen": "./projectImages/React.svg"
     },
     {
       "title": "HTML5",
@@ -42,10 +30,6 @@
     {
       "title": "Azure",
       "imagen": "./projectImages/azure.svg"
-    },
-    {
-      "title": "AWS",
-      "imagen": "./projectImages/AWS.svg"
     },
     {
       "title": "NPM",

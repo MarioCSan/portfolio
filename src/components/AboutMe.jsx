@@ -110,7 +110,7 @@ const AboutMe = ({ name, email, location, availability, brand, pos, saludo }) =>
                   <span className="mb-4">Conocimientos en:</span>
                   <div className="pt-3 col-12 col-md-12 info">
                     {projectImages.map((lang, i) => {
-                      return <img key={i} src={lang.imagen} alt={lang.title} />;
+                      return <img key={i} src={lang.imagen} alt={lang.title}  style={{paddingRight:"2px"}}/>;
                     })}
                   </div>
                 </div>
