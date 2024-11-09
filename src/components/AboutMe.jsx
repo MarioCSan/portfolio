@@ -57,32 +57,36 @@ const AboutMe = ({ name, email, location, availability, brand, pos, saludo }) =>
             <div className="contentDescription">
               <p>
                 Todos tenemos una historia que contar. La mía empieza con una película. Piratas de Silicon Valley. 
-                En este filme, si no sabes, de que va. fue durante una proyección de una película. Piratas de Silicon Valley. 
-                
-                Si no sabes sobre que trata, trata sobre los orígenes de Apple con los Steves (Jobs y Wozniak) y de Microsoft con Bill Gates, Paul Allen, y más tarde, Steve Ballmer. 
 
-                Volviendo a la historia. En ese momento, quise ser como ellos. Aprender a programar y crear software que cambiase el mundo, que impactase a sus clientes y que inspirase. Elegí ese camino que no estuvo ausente de dificultades. Estudie Desarrollo Web el el IES Palomeras-Vallecas. Todo parecía estar encaminado. Parecía. Pero un virus decidió expandirse por el mundo y dejarnos encerrados durante unos meses. Eso pospuso mis planes. Muchos dirán que los frenó. Nada más lejos de la realidad. Tuve la gran oportunidad de estudiar un máster de Desarrollo web con REACT, ANGULAR y .NET core. Aprendí a usar AZURE y AWS y obtuve los certificados. 
+                Si no sabes cuál es el argumento de la película, es sobre los orígenes de Apple con los Steves (Jobs y Wozniak) y de Microsoft con Bill Gates, Paul Allen, y más tarde, Steve Ballmer. 
 
-                Cuándo mis estudios terminaron, me dispuse a trabajar para obtener experiencia en estas tecnologías. Me enseñaron, aprendí, mejore y enseñe mis conocimientos. Cada día aprendo de aquellos que saben más que yo. Con este aprendizaje continuo, sigo mi sueño de cambiar el mundo. Con el paso de los años y recordando esa película, más me voy pareciendo a esa primera Apple, no solo disfruto de hacer un código bonito, si no que también sea bonito, fácil de usar y que causa un impacto en los usuarios.
-
-                Aunque transforme ideas en obras de arte, también disfruto aplicando esos conocimientos al negocio. No descarto en aprovechar estos conocimientos y aplicarlos al negocio. Todo va de la mano. Si esto te parece interesante, quizás debamos tener una reunión y charlar tranquilamente.
               </p>
-              <br />
+              <br/>
               <p>
-                El diseño y funcionalidad del FrontEnd es una parte fundamental
-                para una página web moderna, mantenible y con una deuda técnica
-                baja, para ello hago uso de las versiones más nuevas de React,
-                Angular y JavaScript.
+                Volviendo a la historia, el filme comienza en el rodaje del ya mítico anuncio del Macintosh usando 1984 como referencía.
+              
+                En ese momento, quise ser como ellos. Aprender a programar y crear software que cambiase el mundo, que impactase a sus clientes y que inspirase. Elegí ese camino que no estuvo ausente de dificultades. 
+               
               </p>
-              <br />
+              <br/>
               <p>
-                Pero para que una aplicación web funcione correctamente es
-                necesario que el BackEnd funcione correctamente y devuelva los
-                datos rápidamente. Para hacer eso, desarrollo APIs con seguridad
-                desarrolladas desde .NET haciendo uso de microservicios y NuGets
-                para ampliar la funcionalidad y realizar desarrollos más
-                rápidos.
+                El primer paso con destino fue cuándo me matricule en el CFGS de Desarrollo Web el el IES Palomeras-Vallecas. Todo parecía estar encaminado. Parecía. 
               </p>
+              <br/>
+                Un virus decidió expandirse por el mundo y dejarnos encerrados durante unos meses. Eso pospuso mis planes. Muchos dirán que los frenó. Nada más lejos de la realidad. Tuve la gran oportunidad de estudiar un máster de Desarrollo web con REACT, ANGULAR y .NET core. Aprendí a usar AZURE y AWS y obtuve los certificados. 
+              <p>
+                <br/>
+                Cuándo mis estudios terminaron, me dispuse a trabajar para obtener experiencia en estas tecnologías. Me enseñaron, aprendí, mejore y enseñe mis conocimientos. Cada día aprendo de aquellos que saben más que yo. Con este aprendizaje continuo, sigo mi sueño de cambiar el mundo. 
+              </p>
+              <br/>
+              <p> 
+                Con el paso de los años y recordando esa película, más me voy pareciendo a esa primera Apple, no solo disfruto de hacer un código bonito, si no que también sea bonito, fácil de usar y que causa un impacto en los usuarios.
+              </p>
+              <p>
+                <br/>
+                Aunque transforme ideas abstractas en un código funcioanl, también disfruto aplicando esos conocimientos al negocio. No descarto en aprovechar estos conocimientos y aplicarlos al negocio. Todo va de la mano. Si esto te parece interesante, quizás debamos tener una reunión y charlar tranquilamente.
+              </p>
+            
             </div>
             <div className="infoContainer">
               <div className="row">
@@ -106,7 +110,7 @@ const AboutMe = ({ name, email, location, availability, brand, pos, saludo }) =>
                   <span className="mb-4">Conocimientos en:</span>
                   <div className="pt-3 col-12 col-md-12 info">
                     {projectImages.map((lang, i) => {
-                      return <img key={i} src={lang.imagen} alt={lang.title} />;
+                      return <img key={i} src={lang.imagen} alt={lang.title}  style={{paddingRight:"2px"}}/>;
                     })}
                   </div>
                 </div>
