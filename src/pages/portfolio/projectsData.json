@@ -49,10 +49,21 @@
     "description": "Un sitio web de subastas de coches. Con una base de microservicios usando Postgres y MongoDB junto con RabbitMQ hacen que esta aplicación sea escalabre y segura. Aún se encuentra bajo desarrollo.",
     "technologies": ".NET | Nextjs | RabbitMQ | Postgres | MongoDb",
     "github": "https://github.com/MarioCSan/CarAuctions",
-    "deployed": "https://mariocsan.github.io/Aviatore/",
+    "deployed": "",
     "bgcolor": "#8b00b5",
     "disabled": true,
     "id": "5"
+  }, 
+  {
+    "title": "Gilfoyle's Bitcoin Alert",
+    "image": "./projectImages/readme.png",
+    "description": "En la temporada 5 de silicon valley de HBO, Gilfoyle creó esta alerta cuando el precio del bitcoin sube o baja. En esta versión, se reproduce una canción cuándo el Bitcoin alcanza su ATH (All Time High).  (Cuidado con la música de alerta);",
+    "technologies": "C",
+    "github": "https://github.com/MarioCSan/BitcoinAlert",
+    "deployed": "",
+    "bgcolor": "#f85781",
+    "disabled": true,
+    "id": "6"
   }
 
 ]
