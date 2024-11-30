@@ -80,11 +80,12 @@ const AboutMe = ({ name, email, location, availability, brand, pos, saludo }) =>
               </p>
               <br/>
               <p> 
-                Con el paso de los años y recordando esa película, más me voy pareciendo a esa primera Apple, no solo disfruto de hacer un código bonito, si no que también sea bonito, fácil de usar y que causa un impacto en los usuarios.
+                Con el paso de los años y recordando esa película, más me voy pareciendo a esa primera Apple, no solo disfruto de hacer un código bonito, si no que también sea fácil de usar y que cause un impacto en los usuarios.
               </p>
               <p>
                 <br/>
-                Aunque transforme ideas abstractas en un código funcioanl, también disfruto aplicando esos conocimientos al negocio. No descarto en aprovechar estos conocimientos y aplicarlos al negocio. Todo va de la mano. Si esto te parece interesante, quizás debamos tener una reunión y charlar tranquilamente.
+                Aunque transforme ideas abstractas en un código funcional, también disfruto aplicando esos conocimientos al negocio.
+                Si esto te parece interesante, quizás debamos tener una reunión y charlar tranquilamente.
               </p>
             
             </div>
