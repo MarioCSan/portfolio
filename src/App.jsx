@@ -23,7 +23,7 @@ function App() {
     presentar: "Dejame Presentarme",
     yoSoy: "Soy Mario",
     saludo: "Encantado de conocerte",
-    pos: "Soy desarrollador FullStack, multiplataforma y multicloud",
+    pos: "Soy desarrollador .NET y multicloud",
     Inicio: "Inicio",
     Conoceme: "Conóceme",
     portfolio: "Portfolio",

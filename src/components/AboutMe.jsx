@@ -56,38 +56,25 @@ const AboutMe = ({ name, email, location, availability, brand, pos, saludo }) =>
             <h5> {pos} </h5>
             <div className="contentDescription">
               <p>
-                Todos tenemos una historia que contar. La mía empieza con una película. Piratas de Silicon Valley. 
-
-                Si no sabes cuál es el argumento de la película, es sobre los orígenes de Apple con los Steves (Jobs y Wozniak) y de Microsoft con Bill Gates, Paul Allen, y más tarde, Steve Ballmer. 
-
+                Soy un <strong>desarrollador especializado en .NET Core</strong>, con más de 3 años de experiencia creando
+                <strong> soluciones web y APIs REST</strong> para sectores como veterinaria, viajes y servicios financieros.
+                Mis habilidades incluyen el manejo de <strong>SQL Server, JavaScript y React</strong>, lo que me permite ofrecer
+                un enfoque completo en el desarrollo, desde el backend hasta interfaces dinámicas y funcionales.
               </p>
               <br/>
               <p>
-                Volviendo a la historia, el filme comienza en el rodaje del ya mítico anuncio del Macintosh usando 1984 como referencía.
-              
-                En ese momento, quise ser como ellos. Aprender a programar y crear software que cambiase el mundo, que impactase a sus clientes y que inspirase. Elegí ese camino que no estuvo ausente de dificultades. 
-               
+                A lo largo de mi trayectoria, me he centrado en construir aplicaciones robustas, escalables y alineadas con los
+                principios de <strong>clean code</strong> y <strong>SOLID</strong>, siempre con el objetivo de optimizar procesos y generar
+                un impacto positivo en los negocios. Además, cuento con certificaciones en <strong>AZ-204</strong> y <strong>DVA-C01</strong>
+                (actualmente en renovación) que avalan mi experiencia en entornos cloud como Azure y AWS, y estoy en proceso de obtener
+                la certificación de <strong>Project Manager de Google</strong>.
               </p>
               <br/>
               <p>
-                El primer paso con destino fue cuándo me matricule en el CFGS de Desarrollo Web el el IES Palomeras-Vallecas. Todo parecía estar encaminado. Parecía. 
+                Con un nivel de inglés <strong>C2</strong> y un <strong>enfoque en la mejora continua</strong>, mi objetivo es fusionar tecnología y estrategia
+                para desarrollar soluciones innovadoras que se adapten a las necesidades del mercado. Si buscas a alguien que combine
+                habilidades técnicas, visión estratégica y comunicación efectiva, estás en el lugar adecuado.
               </p>
-              <br/>
-                Un virus decidió expandirse por el mundo y dejarnos encerrados durante unos meses. Eso pospuso mis planes. Muchos dirán que los frenó. Nada más lejos de la realidad. Tuve la gran oportunidad de estudiar un máster de Desarrollo web con REACT, ANGULAR y .NET core. Aprendí a usar AZURE y AWS y obtuve los certificados. 
-              <p>
-                <br/>
-                Cuándo mis estudios terminaron, me dispuse a trabajar para obtener experiencia en estas tecnologías. Me enseñaron, aprendí, mejore y enseñe mis conocimientos. Cada día aprendo de aquellos que saben más que yo. Con este aprendizaje continuo, sigo mi sueño de cambiar el mundo. 
-              </p>
-              <br/>
-              <p> 
-                Con el paso de los años y recordando esa película, más me voy pareciendo a esa primera Apple, no solo disfruto de hacer un código bonito, si no que también sea fácil de usar y que cause un impacto en los usuarios.
-              </p>
-              <p>
-                <br/>
-                Aunque transforme ideas abstractas en un código funcional, también disfruto aplicando esos conocimientos al negocio.
-                Si esto te parece interesante, quizás debamos tener una reunión y charlar tranquilamente.
-              </p>
-            
             </div>
             <div className="infoContainer">
               <div className="row">

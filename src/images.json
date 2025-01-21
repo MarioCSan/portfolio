@@ -46,18 +46,6 @@
     {
       "title": "Postgres",
       "imagen": "./projectImages/postgres.svg"
-    },
-    {
-      "title": "MongoDB",
-      "imagen": "./projectImages/MongoDB.svg"
-    },
-    {
-      "title": "Docker",
-      "imagen": "./projectImages/docker.svg"
-    },
-    {
-      "title": "Swagger",
-      "imagen": "./projectImages/swagger.svg"
     }
   ]
   
