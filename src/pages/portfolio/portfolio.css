@@ -89,8 +89,40 @@
   color: white;
 }
 
+.paragraph {
+  margin-bottom: 1em;
+}
+
+
+.projectDetails {
+  background-color: var(--bg2-color);
+  text-align: center;
+  padding: var(--spacing) 10px;
+  margin: 0;
+  margin-bottom: var(--spacing);
+}
+
 .projectDescription {
   margin-bottom: 10px;
+}
+
+.tech {
+  margin-bottom: var(--sm-spacing);
+  text-align: left;
+}
+
+.technology {
+  background-color: #4ea6a027;
+  margin-right: 5px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  color: var(--hl-color);
+}
+
+.projectBody {
+  line-height: 2;
+  text-align: left;
+  color: var(--secondary-text-color);
 }
 
 /* --- MEDIA QUEIRES --- */

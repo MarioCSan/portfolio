@@ -9,10 +9,10 @@ import Portfolio from "./pages/portfolio/Portfolio";
 import About from "./pages/about/About";
 import Contact from "./pages/contact/Contact";
 import PageNotFound from "./pages/404/PageNotFound";
-
+import ProjectDetails from "./pages/portfolio/[project]/ProjectDetails";
 
 function App() {
-  
+
   const personalDetails = {
     name: "Mario Canales",
     location: "Madrid, ES",
@@ -47,20 +47,20 @@ function App() {
     const [showLoader, setShowLoader] = useState(true);
 
     const [originalTitle, setOriginalTitle] = useState();
-  
+
     useEffect(() => {
       // Hide loader when initial route is loaded
       if (location.pathname !== "/") {
         setShowLoader(false);
       }
-  
+
       if (!originalTitle) {
         setOriginalTitle(document.title);
       }
-  
+
     }, [location, originalTitle]);
-  
-    
+
+
   return (
     <>
       {showLoader ? (
@@ -110,7 +110,8 @@ function App() {
                 />
               }
             />
-            <Route path="/404" element={<PageNotFound />} />
+            <Route path="/pagina-no-encontrada" element={<PageNotFound />} />
+            <Route path="/portfolio/:projectTitle" element={<ProjectDetails />} />
             {/* <Route path="/portfolio/:projectTitle" element={<ProjectDetails />} /> */}
             {/* Fallback route for unknown paths */}
             <Route path="*" element={<Navigate to="/404" />} />
