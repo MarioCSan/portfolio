@@ -87,9 +87,11 @@ const ProjectDetails = () => {
                 <a href={project.github}>
                   <Button name="Ver código" />
                 </a>
+                {project.disabled === false &&
                 <a href={project.deployed}>
                   <Button name="Ver demo" />
                 </a>
+                }
                 <Link to="/portfolio">
                   <Button name="Volver" color="#f72020" />
                 </Link>
