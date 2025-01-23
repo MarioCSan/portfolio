@@ -1,32 +1,33 @@
-import projectData from "./projectsData.json";
-import Project from "../../components/Project";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import PageHeader from "../../components/PageHeader";
+import ProjectList from "../../components/ProjectList";
+import Footer from "../../components/Footer";
+
+/**
+ * Represents the Portfolio page component.
+ * Displays a list of projects and allows users to view the creator's work.
+ *
+ * @component
+ */
 
 const Portfolio = () => {
-  const ProjectList = () =>
-    projectData.map((project, i) => (
-      <Project
-        key={i}
-        id={project.id}
-        title={project.title}
-        technologies={project.technologies}
-        image={project.image}
-        color={project.bgcolor}
-        github={project.github}
-        deployed={project.deployed}
-        disabled={project.disabled}
-        description={project.description}
-      />
-    ));
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
 
   return (
-    <section className="portfolio" id="portfolio">
-      <PageHeader title="Portfolio" description="Visualiza mi trabajo" />
-      <div className="row">
-      
-        <ProjectList />
-      </div>
-    </section>
+    <>
+      <main className="portfolio container">
+        <PageHeader title="Portfolio" description="" />
+
+        <div className="row" id="portfolio">
+          <ProjectList />
+        </div>
+      </main>
+    </>
   );
 };
 
