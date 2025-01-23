@@ -44,6 +44,7 @@ const ProjectDetails = () => {
             <div className="col-12 col-xl-4 projectImage">
               {/* Display the project image */}
               <Image src={project.image2} alt={project.name} opacity="1" />
+              
             </div>
             <div className="col-12 col-xl-8 projectBodyContainer">
               <div className="tech">
