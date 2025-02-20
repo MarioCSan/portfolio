@@ -77,15 +77,15 @@ const AboutMe = ({ name, email, location, availability, brand, pos, saludo }) =>
               </p><br />
               <div className="badges-container">
                 <h2 className="certs">Mis certificaciones:</h2>
-                <a href="https://www.credly.com/earner/earned/badge/ffac012f-2153-414c-a95f-a977fbebae47" target="_blank">
+                <a href="https://www.credly.com/badges/ffac012f-2153-414c-a95f-a977fbebae47/public_url" target="_blank">
                   <img className="badges" src="./projectImages/image.png" alt="Amazon DVA-C01" />
                 </a>
 
-                <a href="https://www.credly.com/earner/earned/badge/f38c45ea-c9f1-44aa-ac0f-0410ca716a95" target="_blank">
+                <a href="https://www.credly.com/badges/f38c45ea-c9f1-44aa-ac0f-0410ca716a95/public_url" target="_blank">
                   <img className="badges" src="./projectImages/az294.png" alt="Micorosft AZ204" />
                 </a>
 
-                <a href="https://www.credly.com/earner/earned/badge/56076e06-b7ab-4c3d-8d95-01294a97a42e" target="_blank">
+                <a href="https://www.credly.com/badges/56076e06-b7ab-4c3d-8d95-01294a97a42e/public_url" target="_blank">
                   <img className="badges" src="./projectImages/GCC.png" alt="Google Project Manager" />
                 </a>
               </div>
