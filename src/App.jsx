@@ -114,7 +114,7 @@ function App() {
             <Route path="/portfolio/:projectTitle" element={<ProjectDetails />} />
             {/* <Route path="/portfolio/:projectTitle" element={<ProjectDetails />} /> */}
             {/* Fallback route for unknown paths */}
-            <Route path="*" element={<Navigate to="/404" />} />
+            <Route path="*" element={<PageNotFound />} />
           </Routes>
           <footer tyle={styles.landing}>
             <Footer />
