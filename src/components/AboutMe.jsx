@@ -56,25 +56,39 @@ const AboutMe = ({ name, email, location, availability, brand, pos, saludo }) =>
             <h5> {pos} </h5>
             <div className="contentDescription">
               <p>
-                Soy un <strong>desarrollador especializado en .NET Core</strong>, con más de 3 años de experiencia creando
-                <strong> soluciones web y APIs REST</strong> para sectores como veterinaria, viajes y servicios financieros.
-                Mis habilidades incluyen el manejo de <strong>SQL Server, JavaScript y React</strong>, lo que me permite ofrecer
+                Soy un <strong>desarrollador especializado en .NET Core</strong>, con experiencia creando
+                <strong> soluciones web y APIs REST</strong> para sectores dinámicos como los viajes y servicios financieros.
+                Mis habilidades incluyen además el manejo de <strong>SQL Server, JavaScript y React</strong>, lo que me permite ofrecer
                 un enfoque completo en el desarrollo, desde el backend hasta interfaces dinámicas y funcionales.
               </p>
-              <br/>
+              <br />
               <p>
-                A lo largo de mi trayectoria, me he centrado en construir aplicaciones robustas, escalables y alineadas con los
-                principios de <strong>clean code</strong> y <strong>SOLID</strong>, siempre con el objetivo de optimizar procesos y generar
-                un impacto positivo en los negocios. Además, cuento con certificaciones en <strong>AZ-204</strong> y <strong>DVA-C01</strong>
-                (actualmente en renovación) que avalan mi experiencia en entornos cloud como Azure y AWS, y estoy en proceso de obtener
-                la certificación de <strong>Project Manager de Google</strong>.
+                A lo largo de mi trayectoria, me he centrado en construir aplicaciones escalables y alineadas con los
+                principios de <strong><i>clean code</i></strong> y <strong><i>SOLID</i></strong>, siempre con el objetivo de optimizar procesos y generar
+                un impacto positivo en los negocios. Además, cuento con certificaciones en <strong>AZ-204</strong> y <strong>DVA-C01</strong>.
+                Además, gracias a la certificacion de <strong>Google Project manager</strong> puedo saber como piensa la empresa y el negocio pudiendo crear mejores soluciones
+                y actuar como un comodin para cualquiera de esas posiciones.
               </p>
-              <br/>
+              <br />
               <p>
                 Con un nivel de inglés <strong>C2</strong> y un <strong>enfoque en la mejora continua</strong>, mi objetivo es fusionar tecnología y estrategia
                 para desarrollar soluciones innovadoras que se adapten a las necesidades del mercado. Si buscas a alguien que combine
                 habilidades técnicas, visión estratégica y comunicación efectiva, estás en el lugar adecuado.
-              </p>
+              </p><br />
+              <div className="badges-container">
+                <h2 className="certs">Mis certificaciones:</h2>
+                <a href="https://www.credly.com/earner/earned/badge/ffac012f-2153-414c-a95f-a977fbebae47" target="_blank">
+                  <img className="badges" src="./projectImages/image.png" alt="Amazon DVA-C01" />
+                </a>
+
+                <a href="https://www.credly.com/earner/earned/badge/f38c45ea-c9f1-44aa-ac0f-0410ca716a95" target="_blank">
+                  <img className="badges" src="./projectImages/az294.png" alt="Micorosft AZ204" />
+                </a>
+
+                <a href="https://www.credly.com/earner/earned/badge/56076e06-b7ab-4c3d-8d95-01294a97a42e" target="_blank">
+                  <img className="badges" src="./projectImages/GCC.png" alt="Google Project Manager" />
+                </a>
+              </div>
             </div>
             <div className="infoContainer">
               <div className="row">
@@ -98,7 +112,7 @@ const AboutMe = ({ name, email, location, availability, brand, pos, saludo }) =>
                   <span className="mb-4">Conocimientos en:</span>
                   <div className="pt-3 col-12 col-md-12 info">
                     {projectImages.map((lang, i) => {
-                      return <img key={i} src={lang.imagen} alt={lang.title}  style={{paddingRight:"2px"}}/>;
+                      return <img key={i} src={lang.imagen} alt={lang.title} style={{ paddingRight: "2px" }} />;
                     })}
                   </div>
                 </div>

@@ -6,7 +6,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: var(--spacing);
-  z-index:1;
+  z-index: 1;
 }
 
 .aboutContainer {
@@ -26,6 +26,25 @@
   border: 1px solid var(--grey);
 }
 
+.badges-container{
+    text-align: center;
+}
+
+.badges {
+  width: 15%;
+  height: auto;
+  max-width: 100%;
+  padding-right: 4%;
+  padding-top: 4%;
+  display: inline-block;
+  margin: auto;
+}
+.certs{
+  color:azure;
+}
+strong {
+  color: #03b979;
+}
 .contentContainer {
   padding: 10px;
 }
