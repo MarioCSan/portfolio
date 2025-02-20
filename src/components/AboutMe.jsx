@@ -66,7 +66,7 @@ const AboutMe = ({ name, email, location, availability, brand, pos, saludo }) =>
                 A lo largo de mi trayectoria, me he centrado en construir aplicaciones escalables y alineadas con los
                 principios de <strong><i>clean code</i></strong> y <strong><i>SOLID</i></strong>, siempre con el objetivo de optimizar procesos y generar
                 un impacto positivo en los negocios. Además, cuento con certificaciones en <strong>AZ-204</strong> y <strong>DVA-C01</strong>.
-                Además, gracias a la certificacion de <strong>Google Project manager</strong> puedo saber como piensa la empresa y el negocio pudiendo crear mejores soluciones
+                Además, gracias a la certificacion de <strong><i>Google Project manager</i></strong> puedo saber como piensa la empresa y el negocio pudiendo crear mejores soluciones
                 y actuar como un comodin para cualquiera de esas posiciones.
               </p>
               <br />
