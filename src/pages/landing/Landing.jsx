@@ -74,7 +74,7 @@ const Landing = ({ personalDetails }) => {
             </div>
 
           </div>
-          <SocialIcons />
+          {/* <SocialIcons /> */}
         </section>
         {/* Display the about section */}
         <About
