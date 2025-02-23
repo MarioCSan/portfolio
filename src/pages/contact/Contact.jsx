@@ -24,7 +24,7 @@ const Contact = ({ name, email, location }) => {
             </div>
           </div>
         </div>
-        {/* <SocialIcons /> */}
+        <SocialIcons />
       </main>
     </>
   );
