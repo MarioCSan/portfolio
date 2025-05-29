@@ -3,7 +3,7 @@
     "title": "El tiempo",
     "description": "Conoce la previsión meteorológica del sitio que desees. Espera, también hay un truco genial: el fondo se oscurece o se ilumina, dependiendo de si es la hora de tomar el sol o de mirar las estrellas en la ciudad que estés comprobando.",
     "image": "/projectImages/weatherN.png",
-    "image2": "/projectImages/weatherN.png",
+    "image2": "",
     "image3": "",
     "body": "Esta aplicación utiliza React y TailwindCSS para proporcionar una interfaz intuitiva y dinámica. Consulta las previsiones meteorológicas de cualquier ciudad, con una experiencia visual inmersiva que cambia según la hora del día.",
     "technologies": ["React", "TailwindCSS"],
@@ -22,16 +22,30 @@
     "body": "MoneyGo utiliza .NET Core para el backend, SQL Server para la base de datos y JavaScript para la interacción en frontend. Este proyecto escaló con el tiempo, incorporando seguridad avanzada, migración a una API y despliegues en Azure y AWS.",
     "technologies": [".NET CORE", "JavaScript", "Bootstrap"],
     "github": "https://github.com/DrunkPsyduck/MoneyGo",
-    "deployed": "https://github.com/DrunkPsyduck/MoneyGo",
+    "deployed": "",
     "disabled": true,
     "bgcolor": "#037A68",
     "id": "2"
   },
   {
+    "title": "Calculadora de Interés compuesto",
+    "description": "Calcula el interés compuesto de una inversión a lo largo del tiempo. ",
+    "image": "/projectImages/Drawer.png",
+    "image2": "/projectImages/Drawer.png",
+    "image3": "",
+    "body": "Esta aplicación es una herramienta sencilla pero poderosa para calcular el interés compuesto. Introduce el capital inicial, la tasa de interés y el tiempo, y obtén resultados claros y precisos.\n Inspirado en Miami Vice hará las delicias de los Finance Boys enamorados del VaporWave",
+    "technologies": ["React"],
+    "github": "https://github.com/MarioCSan/CompounInterestCalc",
+    "deployed": "https://cic.mariocanales.es",
+    "disabled": false,
+    "bgcolor": "#8a51c3",
+    "id": "3"
+  },
+  {
     "title": "Drawer",
     "description": "¡Dibuja sin límites con Drawer! En esta aplicación puedes usar el navegador como un lienzo para dar rienda suelta a tu creatividad. Solo es funcional en dispositivos que utilicen ratón.",
     "image": "/projectImages/Drawer.png",
-    "image2": "/projectImages/Drawer.png",
+    "image2": "",
     "image3": "",
     "body": "Drawer está desarrollado con React y Vite, ofreciendo una experiencia fluida y rápida para los usuarios. Diseñado para dispositivos de escritorio, es ideal para aquellos que deseen explorar su lado artístico.",
     "technologies": ["React + Vite"],
@@ -39,7 +53,7 @@
     "deployed": "https://drawer.mariocanales.es",
     "disabled": false,
     "bgcolor": "#f85781",
-    "id": "3"
+    "id": "4"
   },
   {
     "title": "Aviatore",
@@ -53,7 +67,7 @@
     "deployed": "https://mariocsan.github.io/Aviatore/",
     "disabled": false,
     "bgcolor": "#f37737",
-    "id": "4"
+    "id": "5"
   },
   {
     "title": "CarAuctions",
