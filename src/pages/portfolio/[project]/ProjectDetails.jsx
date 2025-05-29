@@ -7,100 +7,135 @@ import Button from "../../../components/Button";
 import Image from "../../../components/Image";
 import projects from "../../../_data/projects.json";
 
-/**
- * Represents the ProjectDetails page component.
- * Displays details of a specific project.
- *
- * @component
- */
-
 const ProjectDetails = () => {
-  // Get the current location using React Router's useLocation hook
   const location = useLocation();
 
-  // Scroll to the top of the page when the location changes
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location]);
 
-  // Get the project title from the route parameters
   const { projectTitle } = useParams();
+  const project = projects.find(
+    (project) => project.title.toLowerCase() === projectTitle
+  );
 
-  // Find the project in the data using the title
-  const project = projects.find((project) => project.title.toLowerCase() === projectTitle);
-
-  // If the project is not found, display the PageNotFound component
   if (!project) {
     return <PageNotFound />;
   }
 
   return (
-    <>
-      <main className="container portfolio">
-        {/* Display the page header with project title and description */}
-        <PageHeader title={project.title} description={project.description} />
-        <div className="projectDetails">
-          <div className="row">
-            <div className="col-12 col-xl-4 projectImage">
-              {/* Display the project image */}
-              <Image src={project.image2} alt={project.name} opacity="1" />
-              
-            </div>
-            <div className="col-12 col-xl-8 projectBodyContainer">
-              <div className="tech">
-                {/* Display project technologies with animation */}
-                {project.technologies.map((technology, i) => (
-                  <motion.span
-                    key={i}
-                    className="technology"
-                    initial={{ opacity: 0, x: 20 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.5, delay: i * 0.1, ease: "easeInOut" }}
-                  >
-                    {technology + " "}
-                  </motion.span>
-                ))}
-              </div>
+    <main className="container portfolio">
+      <PageHeader title={project.title} description={project.description} />
 
-              <div className="projectBody">
-                {/* Display project body paragraphs with animation */}
-                {project.body.split("\n").map((paragraph, i) => (
-                  <motion.p
-                    className="paragraph"
-                    key={i}
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.5, delay: i * 0.3, ease: "easeInOut" }}
-                  >
-                    {paragraph}
-                  </motion.p>
-                ))}
-              </div>
+      {/* Layout en fila */}
+      <div
+        className="projectDetails"
+        style={{
+          display: "flex",
+          alignItems: "flex-start",
+          gap: "2rem",
+          flexWrap: "wrap", // Responsivo
+        }}
+      >
+        {/* Imagen lateral */}
+        <div
+          className="projectImage"
+          style={{
+            width: "20%",
+            height: "30%",
+            minWidth: "200px", // Para evitar que se vuelva demasiado pequeña
+            maxWidth: "300px",
+            aspectRatio: "4 / 3",
+            overflow: "hidden",
+            flexShrink: 0,
+          }}
+        >
+          <Image
+            src={project.image}
+            alt={project.name}
+            style={{
+              width: "100%",
+              height: "100%",
+              objectFit: "cover",
+            }}
+          />
+        </div>
 
-              {/* Display buttons with animation */}
-              <motion.div
-                style={{ display: "flex", gap: "10px" }}
+        {/* Contenido textual */}
+        <div className="projectBodyContainer" style={{ flex: 1 }}>
+          <div className="tech">
+            {project.technologies.map((technology, i) => (
+              <motion.span
+                key={i}
+                className="technology"
+                initial={{ opacity: 0, x: 20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{
+                  duration: 0.5,
+                  delay: i * 0.1,
+                  ease: "easeInOut",
+                }}
+              >
+                {technology + " "}
+              </motion.span>
+            ))}
+          </div>
+
+          <div className="projectBody">
+            {project.body.split("\n").map((paragraph, i) => (
+              <motion.p
+                className="paragraph"
+                key={i}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: project.body.split("\n").length * 0.3 }}
+                transition={{
+                  duration: 0.5,
+                  delay: i * 0.3,
+                  ease: "easeInOut",
+                }}
               >
-                <a href={project.github}>
-                  <Button name="Ver código" />
-                </a>
-                {project.disabled === false &&
-                <a href={project.deployed}>
-                  <Button name="Ver demo" />
-                </a>
-                }
-                <Link to="/portfolio">
-                  <Button name="Volver" color="#f72020" />
-                </Link>
-              </motion.div>
-            </div>
+                {paragraph}
+
+              </motion.p>
+            ))}
+            {project.image2 && project.image2.trim() !== "" && (
+              <Image
+                src={project.image2}
+                alt={project.name}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                }}
+              />
+            )}
+
           </div>
+
+          <motion.div
+            style={{ display: "flex", gap: "10px", flexWrap: "wrap", marginTop: "1rem" }}
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{
+              duration: 0.5,
+              delay: project.body.split("\n").length * 0.3,
+            }}
+          >
+            <a href={project.github}>
+              <Button name="Ver código" />
+            </a>
+            {!project.disabled && (
+              <a href={project.deployed}>
+                <Button name="Ver demo" />
+              </a>
+            )}
+            <Link to="/portfolio">
+              <Button name="Volver" color="#f72020" />
+            </Link>
+          </motion.div>
         </div>
-      </main>
-    </>
+      </div>
+    </main>
   );
 };
 
