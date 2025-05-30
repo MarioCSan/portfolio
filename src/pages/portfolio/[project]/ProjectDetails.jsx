@@ -181,7 +181,7 @@ const ProjectDetails = () => {
                 </button>
               </div>
             )}
-            
+
           </div>
 
           {lightboxImage && (
@@ -237,7 +237,27 @@ const ProjectDetails = () => {
               </div>
             </div>
           )}
+
+          <motion.div
+            style={{ display: "flex", gap: "10px", flexWrap: "wrap", marginTop: "1rem" }}
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: project.body.split("\n").length * 0.3 }}
+          >
+            <a href={project.github}>
+              <Button name="Ver código" />
+            </a>
+            {!project.disabled && (
+              <a href={project.deployed}>
+                <Button name="Ver demo" />
+              </a>
+            )}
+            <Link to="/portfolio">
+              <Button name="Volver" color="#f72020" />
+            </Link>
+          </motion.div>
         </div>
+
       </div>
     </main>
   );
