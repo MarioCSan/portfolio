@@ -30,9 +30,9 @@
   {
     "title": "Calculadora de Interés compuesto",
     "description": "Calcula el interés compuesto de una inversión a lo largo del tiempo. ",
-    "image": "/projectImages/Drawer.png",
-    "image2": "/projectImages/Drawer.png",
-    "image3": "",
+    "image": "/projectImages/cic.png",
+    "image2": "/projectImages/cic2.png",
+    "image3": "/projectImages/cic3.png",
     "body": "Esta aplicación es una herramienta sencilla pero poderosa para calcular el interés compuesto. Introduce el capital inicial, la tasa de interés y el tiempo, y obtén resultados claros y precisos.\n Inspirado en Miami Vice hará las delicias de los Finance Boys enamorados del VaporWave",
     "technologies": ["React"],
     "github": "https://github.com/MarioCSan/CompounInterestCalc",

@@ -88,6 +88,15 @@ div {
   background-color: #03b979;
 }
 
+.project-carousel::-webkit-scrollbar {
+  display: none;
+}
+.project-carousel {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
 /* --- MOBILE STYLES --- */
 
 /* --- HEADER ---  */
